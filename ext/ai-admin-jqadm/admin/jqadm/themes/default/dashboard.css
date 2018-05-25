@@ -1,0 +1,201 @@
+/**
+ * @license LGPLv3, http://opensource.org/licenses/LGPL-3.0
+ * @copyright Aimeos (aimeos.org), 2016
+ */
+
+.dashboard .card {
+	border: none;
+}
+
+.dashboard .card-header {
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+
+.dashboard .card-block {
+	padding: 0.5em;
+}
+
+.dashboard .content {
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	overflow: auto;
+	height: 280px;
+}
+
+.dashboard .card-block.collapse.show {
+	display: block;
+}
+
+.dashboard .loading {
+	background-image: url('https://aimeos.org/aimeos-spinner.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 128px;
+}
+
+.dashboard table {
+	margin: 0;
+}
+
+.dashboard td {
+	border-top: none;
+	height: inherit;
+}
+
+
+
+/* job styles */
+
+.dashboard .dashboard-job .content {
+	height: auto;
+}
+
+
+/* Common SVG diagram styles */
+
+.dashboard .axis {
+	fill: #808080;
+	text-anchor: middle;
+}
+
+.dashboard .axis line,
+.dashboard .axis path {
+	fill: none;
+	stroke: #A0A0A0;
+	shape-rendering: crispEdges;
+}
+
+
+/* Order per day diagram styles */
+
+.dashboard .order-day .day {
+	fill: #f8f8f8;
+}
+
+.dashboard .order-day .path-month {
+	fill: none;
+	stroke: #800000;
+	stroke-width: 1px;
+}
+
+.dashboard .order-day .q0 { fill: #f8f8f8; }
+.dashboard .order-day .q1 { fill: #d5efcf; }
+.dashboard .order-day .q2 { fill: #bae4b4; }
+.dashboard .order-day .q3 { fill: #9ad696; }
+.dashboard .order-day .q4 { fill: #75c47a; }
+.dashboard .order-day .q5 { fill: #4fb063; }
+.dashboard .order-day .q6 { fill: #30994f; }
+.dashboard .order-day .q7 { fill: #167f3b; }
+.dashboard .order-day .q8 { fill: #036429; }
+.dashboard .order-day .q9 { fill: #00441b; }
+
+
+/* Order per hour diagram styles */
+
+.dashboard .order-hour .bar {
+	fill: #1f77b4;
+}
+
+
+/* Latest order list styles */
+
+.dashboard .order-latest .content {
+	min-height: 280px;
+	height: auto;
+}
+
+.dashboard .order-latest td {
+	height: inherit;
+}
+
+.dashboard .order-latest .order-id,
+.dashboard .order-latest .order-base-price,
+.dashboard .order-latest .order-statuspayment {
+	text-align: right;
+}
+
+.dashboard .order-latest .order-base-address-name,
+.dashboard .order-latest .order-base-service-payment {
+	text-align: left;
+}
+
+.dashboard .order-latest .order-statuspayment,
+.dashboard .order-latest .order-base-price {
+	font-weight: bold;
+}
+
+.dashboard .order-latest .order-base-service-payment:before {
+	content: "(";
+}
+
+.dashboard .order-latest .order-base-service-payment:after {
+	content: ")";
+}
+
+@media (max-width: 768px) {
+	.dashboard .order-latest .content {
+		height: 280px;
+	}
+	.dashboard .order-latest .order-base-service-payment {
+		display: none;
+	}
+}
+
+@media (max-width: 640px) {
+	.dashboard .order-latest .order-base-address-name {
+		display: none;
+	}
+}
+
+
+/* Order per payment status diagram styles */
+
+.dashboard #order-paymentstatus-data {
+	position: relative;
+}
+
+.dashboard .order-paymentstatus .focus {
+	stroke: #555;
+}
+
+.dashboard .order-paymentstatus .overlay {
+	pointer-events: all;
+	fill: none;
+}
+
+.dashboard .order-paymentstatus .pay-unfinished { fill: #969696; }
+.dashboard .order-paymentstatus .pay-deleted { fill: #e6550d; }
+.dashboard .order-paymentstatus .pay-canceled { fill: #fd8d3c; }
+.dashboard .order-paymentstatus .pay-refused { fill: #fdae6b; }
+.dashboard .order-paymentstatus .pay-refund { fill: #756bb1; }
+.dashboard .order-paymentstatus .pay-pending { fill: #3182bd; }
+.dashboard .order-paymentstatus .pay-authorized { fill: #74c476; }
+.dashboard .order-paymentstatus .pay-received { fill: #31a354; }
+
+.dashboard .order-paymentstatus .tooltip {
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 2px;
+	font-weight: bold;
+	line-height: 1;
+	padding: 10px;
+	margin: 0;
+	color: #fff;
+	opacity: 1;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.dashboard .order-paymentstatus .tooltip .head {
+	font-size: 100%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.dashboard .order-paymentstatus .tooltip .values th,
+.dashboard .order-paymentstatus .tooltip .values td {
+	text-align: right;
+	height: inherit;
+}

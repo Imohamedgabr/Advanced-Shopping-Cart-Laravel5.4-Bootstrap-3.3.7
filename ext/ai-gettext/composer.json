@@ -1,0 +1,29 @@
+{
+	"name": "aimeos/ai-gettext",
+	"description": "Aimeos Gettext extension",
+	"keywords": ["aimeos", "extension", "gettext", "performance"],
+	"homepage": "https://aimeos.org/",
+	"type": "aimeos-extension",
+	"license": "LGPL-3.0",
+	"support": {
+		"source": "https://github.com/aimeos/ai-gettext",
+		"issues": "https://github.com/aimeos/ai-gettext/issues",
+		"forum": "https://aimeos.org/help",
+		"wiki": "https://aimeos.org/docs"
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "^1.0",
+		"aimeos/aimeos-core": "~2017.10"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aimeos\\MW\\": "lib/mwlib/src/MW/"
+		},
+		"classmap": [
+			"lib/custom/src"
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"name": "aimeos/ai-swiftmailer",
+	"description": "SwiftMailer adapter for Aimeos web shops and e-commerce solutions",
+	"keywords": ["aimeos", "adapter", "swiftmailer", "mail", "shop", "e-commerce"],
+	"homepage": "https://aimeos.org/",
+	"type": "aimeos-extension",
+	"license": "LGPL-3.0",
+	"support": {
+		"source": "https://github.com/aimeos/ai-swiftmailer",
+		"issues": "https://github.com/aimeos/ai-swiftmailer/issues",
+		"forum": "https://aimeos.org/help",
+		"wiki": "https://aimeos.org/docs"
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.3.3",
+		"swiftmailer/swiftmailer": ">=4.0",
+		"composer/installers": "^1.0",
+		"aimeos/aimeos-core": "~2017.10"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aimeos\\MW\\": "lib/custom/src/MW"
+		},
+		"classmap": [
+			"lib/custom/src"
+		]
+	}
+}

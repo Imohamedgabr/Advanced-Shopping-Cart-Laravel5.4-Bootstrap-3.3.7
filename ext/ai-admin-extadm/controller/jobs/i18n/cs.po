@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Martin Vyšohlíd <vysohlidm@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: aimeos-core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-02 17:58+0200\n"
+"PO-Revision-Date: 2017-10-02 15:59+0000\n"
+"Last-Translator: Aimeos\n"
+"Language-Team: Czech (http://www.transifex.com/aimeos/aimeos-core/language/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#, php-format
+msgid "Class \"%1$s\" does not implement interface \"%2$s\""
+msgstr "Třída \"%1$s\" neimplementuje rozhraní \"%2$s\""
+
+#, php-format
+msgid "Class \"%1$s\" not available"
+msgstr "Třída \"%1$s\" není k dispozici"
+
+#, php-format
+msgid "Class \"%1$s\" not found"
+msgstr "Třída \"%1$s\" nenalezena"
+
+#, php-format
+msgid "Controller path is empty"
+msgstr "Není nastavena cesta kontroléru"
+
+#, php-format
+msgid "Invalid characters in class name \"%1$s\""
+msgstr "Zakázané znaky ve jméně třídy \"%1$s\""
+
+#, php-format
+msgid "Invalid controller \"%1$s\" in \"%2$s\""
+msgstr ""
+
+#, php-format
+msgid "Invalid domain \"%1$s\""
+msgstr "Neplatná doména \"%1$s\""
+
+#, php-format
+msgid "Invalid factory \"%1$s\""
+msgstr "Neplatná továrna \"%1$s\""
+
+#, php-format
+msgid "No type item for \"%1$s/%2$s\" in \"%3$s\" found"
+msgstr "Nenalezen žádný typ položky pro \"%1$s/%2$s\" v \"%3$s\""
+
+#, php-format
+msgid "Unable to call method \"%1$s\""
+msgstr "Nelze nazvat metodu \"%1$s\""

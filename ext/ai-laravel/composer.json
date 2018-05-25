@@ -1,0 +1,31 @@
+{
+	"name": "aimeos/ai-laravel",
+	"description": "Laravel adapter for Aimeos web shops and e-commerce solutions",
+	"keywords": ["aimeos", "adapter", "laravel", "shop", "e-commerce"],
+	"homepage": "https://aimeos.org/Laravel",
+	"type": "aimeos-extension",
+	"license": "LGPL-3.0",
+	"support": {
+		"source": "https://github.com/aimeos/ai-laravel",
+		"issues": "https://github.com/aimeos/ai-laravel/issues",
+		"forum": "https://aimeos.org/help",
+		"wiki": "https://aimeos.org/docs"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "^1.0",
+		"laravel/framework": "~5.0",
+		"zendframework/zend-diactoros": "~1.0",
+		"aimeos/aimeos-core": "~2017.10"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aimeos\\MW\\": "lib/custom/src/MW"
+		},
+		"classmap": [
+			"lib/custom/src"
+		]
+	}
+}

@@ -1,0 +1,1246 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Henry LIU <dadaycm@hotmail.com>, 2016
+# shihua16165 <shihua16165@163.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: aimeos-core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-02 17:37+0200\n"
+"PO-Revision-Date: 2017-10-02 15:52+0000\n"
+"Last-Translator: Aimeos\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/aimeos/aimeos-core/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, php-format
+msgid "%1$d article"
+msgid_plural "%1$d articles"
+msgstr[0] "%1$d 产品"
+
+#. / Address format with company (%1$s), salutation (%2$s), title (%3$s),
+#. first name (%4$s), last name (%5$s),
+#. / address part one (%6$s, e.g street), address part two (%7$s, e.g house
+#. number), address part three (%8$s, e.g additional information),
+#. / postal/zip code (%9$s), city (%10$s), state (%11$s), country (%12$s),
+#. language (%13$s),
+#. / e-mail (%14$s), phone (%15$s), facsimile/telefax (%16$s), web site
+#. (%17$s), vatid (%18$s)
+#, php-format
+msgid ""
+"%1$s\n"
+"%2$s %3$s %4$s %5$s\n"
+"%6$s %7$s\n"
+"%8$s\n"
+"%9$s %10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+msgstr "%1$s\n%2$s %3$s %4$s %5$s\n%6$s %7$s\n%8$s\n%9$s %10$s\n%11$s\n%12$s\n%13$s\n%14$s\n%15$s\n%16$s\n%17$s\n%18$s\n"
+
+#. / Price format with price value (%1$s) and currency (%2$s)
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. / Rebate format with rebate value (%1$s) and currency (%2$s)
+#, php-format
+msgid "%1$s %2$s off"
+msgstr "%1$s %2$s 扣减"
+
+#. / Configurable product attribute name (%1$s) with sign (%4$s, +/-), price
+#. value (%2$s) and currency (%3$s)
+#, php-format
+msgid "%1$s ( %4$s%2$s%3$s )"
+msgstr "%1$s ( %4$s%2$s%3$s )"
+
+#. / Order status (%1$s) and date (%2$s), e.g. "received at 2000-01-01"
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s 在 %2$s"
+
+#. / Percent format with value (%1$s) and % sign
+#, php-format
+msgid "%1$s%%"
+msgstr "%1$s%%"
+
+#. / Service fee value (%1$s) and shipping cost value (%2$s) with currency
+#. (%3$s)
+#, php-format
+msgid "%1$s%3$s + %2$s%3$s"
+msgstr "%1$s%3$s + %2$s%3$s"
+
+msgid "+"
+msgstr "+"
+
+#. / Price shipping format with shipping / payment cost value (%1$s) and
+#. currency (%2$s)
+#, php-format
+msgid "+ %1$s %2$s/item"
+msgstr "+ %1$s %2$s/条目"
+
+#. / Tax rate format with tax rate in percent (%1$s)
+#, php-format
+msgid "+ %1$s%% VAT"
+msgstr "+ %1$s%% 增值税"
+
+msgid "+ Payment costs"
+msgstr "+ 支付系统手续费"
+
+msgid "+ Shipping"
+msgstr "+ 邮费"
+
+msgid "+ shipping costs"
+msgstr "+ 运输费用"
+
+msgid "+1 123 456 7890"
+msgstr "+1 123 456 7890"
+
+#. / Rebate percent format with rebate percent value (%1$s)
+#, php-format
+msgid "-%1$s%%"
+msgstr "-%1$s%%"
+
+msgid "Account"
+msgstr "账户"
+
+msgid "Add to basket"
+msgstr "加入购物车"
+
+msgid "Additional"
+msgstr "附加"
+
+msgid "Additional 2"
+msgstr "附加 2"
+
+#, php-format
+msgid "Address with ID \"%1$s\" not found"
+msgstr "未找到 ID为 \"%1$s\" 的地址"
+
+msgid "Addresses"
+msgstr "地址"
+
+msgid ""
+"All deliveries shipped are subject to our terms and conditions, which are available on our website and which you accepted when placing your order.\n"
+"\n"
+"This email contains confidential information and is exclusively for the use of the person addressed. Should you not be that person then please reply to this e-mail and delete the e-mail and attachments afterwards."
+msgstr "所有交付运受限于我们的条款和条件，这些条款可以从我们的网站上找到，您下单的时候，网页上面也有显示。\n这封邮件包含针对特定人员的机密信息。如果您错误的收到了这封邮件，请回复并删除本邮件及附件。"
+
+#. / Payment e-mail legal information
+msgid "All orders are subject to our terms and conditions."
+msgstr "提交订单意味着接受我们的条款，这些条款可以从我们的网站上找到，您下单的时候，网页上面也有显示。\n这封邮件包含针对特定人员的机密信息。如果您错误的收到了这封邮件，请回复并删除本邮件及附件。"
+
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Aimeos (aimeos.org), 2015-2017
+msgid "An account has been created for you."
+msgstr "已经为您生成一个账户。"
+
+msgid "Article no.:"
+msgstr "产品号："
+
+#, php-format
+msgid "At least one billing address part is missing or invalid"
+msgstr "至少一个账单地址部件缺失或者无效"
+
+#, php-format
+msgid "At least one delivery address part is missing or invalid"
+msgstr "至少一个递送地址部件缺失或者无效"
+
+msgid "Attributes"
+msgstr "属性"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "Basket"
+msgstr "购物车"
+
+msgid "Billing address"
+msgstr "账单地址"
+
+#, php-format
+msgid "Billing address part \"%1$s\" is invalid"
+msgstr "账单地址部件\"%1$s\"无效"
+
+#, php-format
+msgid "Billing address part \"%1$s\" is missing"
+msgstr "账单地址 \"%1$s\" 有误"
+
+msgid "Birthday"
+msgstr ""
+
+msgid "Bundled products"
+msgstr "打包产品"
+
+msgid "Buy now"
+msgstr "立即购买"
+
+#. /html/catalog/filter/partials/tree
+#. * Relative path to the category tree partial template file
+#. *
+#. * Partials are templates which are reused in other templates and generate
+#. * reoccuring blocks filled with data from the assigned values. The tree
+#. * partial creates an HTML block of nested lists for category trees.
+#. *
+#. * @param string Relative path to the template file
+#. * @since 2017.01
+#. * @category Developer
+msgid "Categories"
+msgstr "类目"
+
+msgid "Change"
+msgstr "变更"
+
+msgid "Change payment"
+msgstr "更改付款"
+
+msgid "Characteristics"
+msgstr "特色"
+
+msgid "Check"
+msgstr ""
+
+msgid "Checkout"
+msgstr "结帐"
+
+msgid "City"
+msgstr "市"
+
+#, php-format
+msgid "Class \"%1$s\" does not implement \"%2$s\""
+msgstr "类\"%1$s\"没有实现接口\"%2$s\""
+
+#, php-format
+msgid "Class \"%1$s\" does not implement interface \"%2$s\""
+msgstr "类型 \"%1$s\" 不实现接口\"%2$s\""
+
+#, php-format
+msgid "Class \"%1$s\" not available"
+msgstr "类型 \"%1$s\" 无法使用"
+
+#, php-format
+msgid "Class \"%1$s\" not found"
+msgstr "类\"%1$s\"没有找到"
+
+#, php-format
+msgid "Client HTML type is empty"
+msgstr "客户 HTML类型为空"
+
+#, php-format
+msgid "Client type \"%1$s\" must consist of two parts separated by \"/\""
+msgstr "客户类型 \"%1$s\" 必须包含两个部分且由\"/\"分隔开"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Company"
+msgstr "公司"
+
+msgid "Confirmation"
+msgstr "确认"
+
+msgid "Country"
+msgstr "国家地区"
+
+msgid "Coupon codes"
+msgstr "优惠券编号"
+
+msgid "Coupons"
+msgstr "优惠券"
+
+msgid "Create a customer account for me"
+msgstr ""
+
+msgid "Customer account"
+msgstr ""
+
+#, php-format
+msgid "Customer with ID \"%1$s\" not found"
+msgstr "客户（ ID为 \"%1$s\" ）未找到"
+
+#. / Payment e-mail form of address with salutation (%1$s), first name (%2$s)
+#. and last name (%3$s)
+#. / Payment e-mail form of address with salutation (%1$s), first name (%2$s)
+#. and last name (%3$s)
+#. / E-mail intro with salutation (%1$s), first name (%2$s) and last name
+#. (%3$s)
+#, php-format
+msgid "Dear %1$s %2$s %3$s"
+msgstr "尊敬的 %1$s %2$s %3$s"
+
+msgid "Dear Sir or Madam"
+msgstr "尊敬的先生或女士"
+
+msgid "Delivery"
+msgstr "交货"
+
+msgid "Delivery address"
+msgstr "送货地址"
+
+#, php-format
+msgid "Delivery address part \"%1$s\" is invalid"
+msgstr "配送地址部件\"%1$s\"无效"
+
+#, php-format
+msgid "Delivery address part \"%1$s\" is missing"
+msgstr "送货地址 \"%1$s\" 有误"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Details"
+msgstr "明细"
+
+msgid "Downloads"
+msgstr "下载"
+
+msgid "E-Mail"
+msgstr "电子邮件"
+
+#. / E-mail HTML title
+msgid "E-mail notification"
+msgstr "电子邮件通知"
+
+msgid "Favorite products"
+msgstr "喜欢的产品"
+
+msgid "Fax"
+msgstr "传真"
+
+msgid "Fields with an * are mandatory"
+msgstr "带*栏目为必填项"
+
+#, php-format
+msgid "File \"%1$s\" doesn't exist"
+msgstr ""
+
+msgid "Filter"
+msgstr "筛选"
+
+msgid "First name"
+msgstr "名"
+
+msgid "GB999999973"
+msgstr "GB999999973"
+
+msgid "Go"
+msgstr "前往\n "
+
+#, php-format
+msgid ""
+"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and "
+"conditions\" alt=\"terms and conditions\">terms and conditions</a> and <a "
+"href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy "
+"policy\">privacy policy</a>"
+msgstr "我接受 <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions\" alt=\"terms and conditions\">条款及细则</a> and <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy policy\">隐私权政策</a>"
+
+msgid "If back in stock"
+msgstr "如果库存被补充"
+
+msgid "If price decreases"
+msgstr "如果价格下调"
+
+#. / E-mail outro
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Aimeos (aimeos.org), 2015-2017
+msgid "If you have any questions, please reply to this e-mail"
+msgstr "如果您有任何疑问，请回复此邮件"
+
+#. / Tax rate format with tax rate in percent (%1$s)
+#, php-format
+msgid "Incl. %1$s%% VAT"
+msgstr "含%1$s%%增值税"
+
+msgid "Included rebates"
+msgstr "已经打完折"
+
+#, php-format
+msgid "Invalid characters in class name \"%1$s\""
+msgstr "类名 \"%1$s\"有无效的字符"
+
+#, php-format
+msgid "Invalid characters in client name \"%1$s\""
+msgstr "客户名 \"%1$s\"有无效的字符 "
+
+#, php-format
+msgid "Invalid characters in client name \"%1$s\" in \"%2$s\""
+msgstr "客户名称中有无效的字符，在\"%1$s\" 于 \"%2$s\""
+
+#, php-format
+msgid "Invalid class name \"%1$s\""
+msgstr "无效的类名\"%1$s\""
+
+#, php-format
+msgid "Invalid domain \"%1$s\""
+msgstr "无效的域名\"%1$s\""
+
+#, php-format
+msgid "Invalid factory \"%1$s\""
+msgstr "无效的工厂\"%1$s\""
+
+#, php-format
+msgid "Invalid process response from service provider with code \"%1$s\""
+msgstr "服务提供商反馈无效回答编码 \"%1$s\""
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Last name"
+msgstr "姓名"
+
+msgid "Last seen"
+msgstr "最近浏览过的"
+
+msgid "Latest"
+msgstr ""
+
+msgid "Like entered by you"
+msgstr ""
+
+msgid "Name"
+msgstr "名"
+
+msgid "Next"
+msgstr "下"
+
+#, php-format
+msgid ""
+"No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please "
+"try again with a different keyword."
+msgstr "未找到<span class=\"searchstring\">\"%1$s\"</span>产品。请换关键词再试。"
+
+#, php-format
+msgid "No product with ID \"%1$s\" found"
+msgstr "ID为\"%1$s\"的产品未找到"
+
+#, php-format
+msgid "No service for code \"%1$s\" found"
+msgstr "编号为\"%1$s\"的服务未找到"
+
+#, php-format
+msgid "No type item for \"%1$s/%2$s\" in \"%3$s\" found"
+msgstr "未找到类型条目\"%1$s/%2$s\" 于 \"%3$s\""
+
+#, php-format
+msgid "No view available"
+msgstr "没有可用的视图"
+
+#, php-format
+msgid "Number of coupon codes exceeds the limit"
+msgstr "优惠券的数量超过限制"
+
+#, php-format
+msgid "Object doesn't implement \"%1$s\""
+msgstr "对象没有实现\"%1$s\""
+
+msgid "One month"
+msgstr "一个月"
+
+msgid "One or more products you are watching have been updated."
+msgstr "您所浏览过产品中至少有一个已经被更新了"
+
+msgid "One week"
+msgstr "一个星期"
+
+msgid "Options"
+msgstr "选项"
+
+msgid "Order ID"
+msgstr "订单编号"
+
+msgid "Order channel"
+msgstr "订单渠道"
+
+msgid "Order details"
+msgstr "订单明细"
+
+msgid "Order history"
+msgstr "订单记录"
+
+msgid "Order status"
+msgstr "订单状态"
+
+#, php-format
+msgid "Order with ID \"%1$s\" not found"
+msgstr "订单（ ID为 \"%1$s\"）未找到"
+
+msgid "Other customers also bought"
+msgstr "其他客户已经购买"
+
+msgid "Our products"
+msgstr ""
+
+#, php-format
+msgid "Page %1$d of %2$d"
+msgstr "第%1$d 页 共 %2$d"
+
+msgid "Password"
+msgstr "口令"
+
+msgid "Pay now"
+msgstr "立即支付"
+
+msgid "Payment"
+msgstr "付款"
+
+msgid "Payment costs"
+msgstr "支付费"
+
+msgid "Payment status"
+msgstr "支付状态"
+
+msgid "Pinned products"
+msgstr "被关注的商品"
+
+msgid "Please accept the terms and conditions"
+msgstr "请接受条款和条件"
+
+msgid "Please check your order"
+msgstr "请检查您的订单"
+
+msgid "Please choose your delivery method"
+msgstr "请选择送货方式"
+
+msgid "Please choose your payment method"
+msgstr "请选择支付方式 "
+
+msgid "Please enter at least three characters"
+msgstr "请输入至少3个字符"
+
+msgid "Please enter your payment details"
+msgstr "请输入付款详情"
+
+#, php-format
+msgid "Please recheck your delivery choice"
+msgstr ""
+
+#, php-format
+msgid "Please recheck your payment choice"
+msgstr ""
+
+msgid "Please select"
+msgstr "请选择"
+
+msgid "Postal code"
+msgstr "邮政编码"
+
+msgid "Previous"
+msgstr "前面一个"
+
+msgid "Price"
+msgstr "价格"
+
+msgid "Proceed"
+msgstr "继续"
+
+msgid "Processing the payment failed"
+msgstr "处理支付失败"
+
+msgid "Product"
+msgstr "商品"
+
+msgid "Products you might be also interested in"
+msgstr "你可能感兴趣的商品"
+
+msgid "Properties"
+msgstr "属性"
+
+msgid "Qty"
+msgstr "数量"
+
+msgid "Quantity"
+msgstr "数量"
+
+msgid "Related"
+msgstr "相关的"
+
+msgid "Relevance"
+msgstr "关联"
+
+#. / Product search hint with user provided search string (%1$s)
+#, php-format
+msgid "Result for \"%1$s\""
+msgstr "\"%1$s\"结果"
+
+msgid "Salutation"
+msgstr "称呼"
+
+msgid "Search"
+msgstr "搜索"
+
+#, php-format
+msgid "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d article)"
+msgid_plural ""
+"Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d "
+"articles)"
+msgstr[0] " <span class=\"searchstring\">\"%1$s\"</span> (%2$d articles) 搜素结果"
+
+msgid "Select country"
+msgstr "选择国家地区"
+
+msgid "Select currency"
+msgstr "选择货币"
+
+msgid "Select language"
+msgstr "选择语言"
+
+msgid "Select salutation"
+msgstr "选择称呼"
+
+msgid "Select state"
+msgstr "选择省份"
+
+msgid "Service fees"
+msgstr "手续费"
+
+msgid "Services"
+msgstr "服务"
+
+msgid "Share"
+msgstr ""
+
+msgid "Shipping"
+msgstr "送货费"
+
+msgid "Show"
+msgstr "显示"
+
+msgid "Show all quotes"
+msgstr "显示所有报价"
+
+msgid "Sort by:"
+msgstr "排序方式："
+
+msgid "State"
+msgstr "状态"
+
+#. / Stock string composition with stock type (%1$s, normally left out)
+#. and stock level string (%2$s)
+#. / Stock string composition with stock type (%1$s, normally left out) and
+#. stock level string (%2$s)
+#, php-format
+msgid "Stock: %1$s, %2$s"
+msgstr "库存: %1$s, %2$s"
+
+#. / Stock string composition with stock type (%1$s, normally left out),
+#. stock level string (%2$s) and back in stock date (%3$s)
+#. / Stock string composition with stock type (%1$s, normally left out), stock
+#. level string (%2$s) and back in stock date (%3$s)
+#, php-format
+msgid "Stock: %1$s, %2$s, back on %3$s"
+msgstr "库存: %1$s, %2$s, 补货日期%3$s"
+
+msgid "Street"
+msgstr "街道"
+
+msgid "Sub-total"
+msgstr "小计"
+
+msgid "Suggested products"
+msgstr "建议产品"
+
+msgid "Sum"
+msgstr "合计"
+
+msgid "Telephone"
+msgstr "电话"
+
+#, php-format
+msgid "Template \"%1$s\" not available"
+msgstr "模板 \"%1$s\" 不可用"
+
+msgid "Terms and conditions"
+msgstr "条款和条件"
+
+#. / Payment e-mail intro with order ID (%1$s), order date (%2$s) and payment
+#. status (%3%s)
+#. / Payment e-mail intro with order ID (%1$s), order date (%2$s) and payment
+#. status (%3%s)
+#, php-format
+msgid "Thank you for your order %1$s from %2$s."
+msgstr "谢谢您的订单 %1$s （日期 %2$s）。"
+
+#. / Payment e-mail intro with order ID (%1$s), order date (%2$s) and payment
+#. status (%3%s)
+#. / Payment e-mail intro with order ID (%1$s), order date (%2$s) and payment
+#. status (%3%s)
+#, php-format
+msgid ""
+"Thank you for your order %1$s from %2$s.\n"
+"\n"
+"The order is pending until we receive the final payment. If you've chosen to pay in advance, please transfer the money to our bank account with the order ID %1$s as reference."
+msgstr "非常感谢您的%2$s的订单%1$s。\n\n订单正在等待付款。请经通过银行汇款并且填写订单编号%1$s。"
+
+#. / Payment e-mail intro with order ID (%1$s), order date (%2$s) and payment
+#. status (%3%s)
+#. / Payment e-mail intro with order ID (%1$s), order date (%2$s) and payment
+#. status (%3%s)
+#, php-format
+msgid ""
+"Thank you for your order %1$s from %2$s.\n"
+"\n"
+"We received the payment and will care about your order immediately."
+msgstr "非常感谢您的%2$s的订单%1$s。\n\n我收到了您的货款并且正在处理订单。"
+
+msgid ""
+"Thank you for your order and authorizing the payment.\n"
+"An e-mail with the order details will be sent to you within the next few minutes."
+msgstr "谢谢您的订单和对付款的授权。\n一封关于订单详情的电子邮件将会在几分钟后发送给您。"
+
+msgid ""
+"Thank you for your order.\n"
+"We received your payment and an e-mail with the order details will be sent to you within the next few minutes."
+msgstr "谢谢您的订单。\n我们已经收到付款。一封关于订单详情的电子邮件将会在几分钟后发送给您。"
+
+#. / Delivery e-mail intro with order ID (%1$s), order date (%2$s) and
+#. delivery status (%3%s)
+#. / Delivery e-mail intro with order ID (%1$s), order date (%2$s) and
+#. delivery status (%3%s)
+#, php-format
+msgid ""
+"The delivery status of your order %1$s from %2$s has been changed to "
+"\"%3$s\"."
+msgstr "订单%1$s （日期%2$s）的配送状态已经更新为\"%3$s\"。"
+
+#, php-format
+msgid ""
+"The order is pending until we receive the final payment. If you've chosen to"
+" pay in advance, please transfer the money to our bank account with the "
+"order ID %1$s as reference."
+msgstr ""
+
+msgid ""
+"The order was canceled.\n"
+"Do you wish to retry your order?"
+msgstr "订单已经被取消。\n您想重新下单吗？"
+
+#. / Delivery e-mail intro with order ID (%1$s), order date (%2$s) and
+#. delivery status (%3%s)
+#. / Delivery e-mail intro with order ID (%1$s), order date (%2$s) and
+#. delivery status (%3%s)
+#, php-format
+msgid "The parcel for your order %1$s from %2$s could not be delivered."
+msgstr "日期%2$s的订单%1$s包裹无法送到"
+
+msgid ""
+"The payment confirmation for your order is still pending.\n"
+"You will get an e-mail as soon as the payment is authorized."
+msgstr "对您的订单的付款确认尚未完成。\n一旦付款被授权，很快您将收到一封电子邮件。"
+
+#. / Payment e-mail intro with order ID (%1$s), order date (%2$s) and payment
+#. status (%3%s)
+#. / Payment e-mail intro with order ID (%1$s), order date (%2$s) and payment
+#. status (%3%s)
+#, php-format
+msgid "The payment for your order %1$s from %2$s has been refunded."
+msgstr "日期为%2$s的订单%1$s退款已经完成。"
+
+msgid "Three month"
+msgstr "三个月"
+
+msgid "Time frame"
+msgstr "事件范围"
+
+msgid "Toggle fullscreen"
+msgstr ""
+
+msgid "Top seller"
+msgstr "畅销产品"
+
+msgid "Total"
+msgstr "合计"
+
+msgid "Total quantity"
+msgstr "全部数量"
+
+msgid "Try again"
+msgstr "再试一次"
+
+msgid "Two weeks"
+msgstr "两周"
+
+#, php-format
+msgid "Unable to call method \"%1$s\""
+msgstr "不能调用方法\"%1$s\""
+
+#, php-format
+msgid "Unable to create an account for \"%1$s\": %2$s"
+msgstr "不能为\"%1$s\": %2$s生成账户"
+
+#, php-format
+msgid "Unable to create an account: %1$s"
+msgstr ""
+
+#, php-format
+msgid "Unable to save address for customer \"%1$s\": %2$s"
+msgstr "无法保存客户 \"%1$s\": %2$s地址"
+
+#, php-format
+msgid "Unable to set cache entry: %1$s"
+msgstr "不能设置缓存条目%1$s"
+
+msgid ""
+"Unfortunately, the payment for your order was refused.\n"
+"Do you wish to retry?"
+msgstr "遗憾的是，对您的订单的付款被拒绝了。\n您要重试吗？"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Vat ID"
+msgstr "增值税编号"
+
+msgid "Watch"
+msgstr "浏览"
+
+msgid "Watched products"
+msgstr "浏览过的产品"
+
+msgid ""
+"We have received your payment, and will take care of your order immediately."
+msgstr ""
+
+#. / Delivery e-mail intro with order ID (%1$s), order date (%2$s) and
+#. delivery status (%3%s)
+#. / Delivery e-mail intro with order ID (%1$s), order date (%2$s) and
+#. delivery status (%3%s)
+#, php-format
+msgid "We received the returned parcel for your order %1$s from %2$s."
+msgstr "我们收到了退回来的包裹，是关于您的订单%1$s （日期 %2$s）。"
+
+msgid "Web site"
+msgstr "网址"
+
+msgid "X"
+msgstr "X"
+
+#. / Date format with year (Y), month (m) and day (d). See
+#. http://php.net/manual/en/function.date.php
+msgid "Y-m-d"
+msgstr "Y-m-d"
+
+msgid "You are here:"
+msgstr "您现在的位置："
+
+msgid "You will now be forwarded to the next step"
+msgstr "正在转到下一步"
+
+msgid "Your account"
+msgstr "您的账户"
+
+msgid "Your choice"
+msgstr "您的选择"
+
+msgid "Your comment"
+msgstr ""
+
+#. / Account creation e-mail subject
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Account creation e-mail subject
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Aimeos (aimeos.org), 2015-2017
+#. / Account creation e-mail subject
+msgid "Your new account"
+msgstr "您的新账户"
+
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. / Delivery e-mail subject with order ID
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2017
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2017
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2017
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2017
+#. / Payment e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2017
+#. / Delivery e-mail subject with order ID
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2013
+#. * @copyright Aimeos (aimeos.org), 2015-2017
+#. / Payment e-mail subject with order ID
+#, php-format
+msgid "Your order %1$s"
+msgstr "您的订单 %1$s"
+
+#. / Delivery e-mail intro with order ID (%1$s), order date (%2$s) and
+#. delivery status (%3%s)
+#. / Delivery e-mail intro with order ID (%1$s), order date (%2$s) and
+#. delivery status (%3%s)
+#, php-format
+msgid "Your order %1$s from %2$s has been dispatched."
+msgstr "您的订单%1$s（日期为 %2$s）已经安排送货"
+
+msgid "Your search result"
+msgstr "您搜索过的产品"
+
+#. / Product notification e-mail subject
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Product notification e-mail subject
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2016
+#. / Product notification e-mail subject
+#. //opensource.org/licenses/LGPL-3.0
+#. * @copyright Metaways Infosystems GmbH, 2014
+#. * @copyright Aimeos (aimeos.org), 2015-2017
+#. / Product notification e-mail subject
+msgid "Your watched products"
+msgstr "您浏览过的产品"
+
+msgid "Zoom in/out"
+msgstr ""
+
+#, php-format
+msgid "address"
+msgstr "地址"
+
+msgid "clear all"
+msgstr "全部清空"
+
+#, php-format
+msgid "delivery"
+msgstr "交货"
+
+#. / Price quantity format with quantity (%1$s)
+#, php-format
+msgid "from %1$s"
+msgstr "来自%1$s"
+
+msgid "like billing address"
+msgstr "跟账单地址一样"
+
+msgid "new address"
+msgstr "新地址"
+
+#. /html/catalog/attribute/type
+#. * List of layout types for the optional attributes
+#. *
+#. * Each product can contain optional attributes and this configuration
+#. setting
+#. * allows you to change how these attributs will be displayed, either as
+#. * drop-down menu (value: "select") or as list of radio buttons (value:
+#. * "radio").
+#. *
+#. * The key for each value must be the type code of the attribute, e.g.
+#. "width",
+#. * "length", "color" or similar types. You can set the layout for all
+#. * attributes at once using e.g.
+#. *
+#. *  client/html/catalog/attribute/type = array(
+#. *      'width' => 'select',
+#. *      'color' => 'radio',
+#. *  )
+#. *
+#. * Similarly, you can set the layout type for a specific attribute only,
+#. * leaving the rest untouched:
+#. *
+#. *  client/html/catalog/attribute/type/color = radio
+#. *
+#. * Note: Up to 2015.10 this option was available as
+#. /html/catalog/detail/basket/attribute/type
+#. *
+#. * @param array List of attribute types as key and layout types as value,
+#. e.g. "select" or "radio"
+#. * @since 2015.10
+#. * @category Developer
+#. * @category User
+#. * @see client/html/catalog/selection/type
+#. /html/catalog/attribute/type/color
+#. * Layout types for the color attribute
+#. *
+#. * @see client/html/catalog/attribute/type
+#. /html/catalog/attribute/type/size
+#. * Layout types for the size attribute
+#. *
+#. * @see client/html/catalog/attribute/type
+#. /html/catalog/attribute/preselect
+#. * Pre-select first item in selection list
+#. *
+#. * No option of the available selections for a product is pre-selected by
+#. * default. This setting removes the hint to select an option, so the first
+#. one
+#. * is selected by default.
+#. *
+#. * The key for each value must be the type code of the attribute, e.g.
+#. "width",
+#. * "length", "color" or similar types. You can set the layout for all
+#. * attributes at once using e.g.
+#. *
+#. *  client/html/catalog/attribute/preselect = array(
+#. *      'width' => false,
+#. *      'color' => true,
+#. *  )
+#. *
+#. * Similarly, you can set the pre-selection for a specific attribute only,
+#. * leaving the rest untouched:
+#. *
+#. *  client/html/catalog/attribute/preselect/color = true
+#. *
+#. * @param boolean True to select the first option by default, false to
+#. display the select hint
+#. * @since 2017.04
+#. * @category Developer
+#. * @category User
+#. /html/catalog/attribute/type
+#. * List of layout types for the optional attributes
+#. *
+#. * Each product can contain optional attributes and this configuration
+#. setting
+#. * allows you to change how these attributs will be displayed, either as
+#. * drop-down menu (value: "select") or as list of radio buttons (value:
+#. * "radio").
+#. *
+#. * The key for each value must be the type code of the attribute, e.g.
+#. "width",
+#. * "length", "color" or similar types. You can set the layout for all
+#. * attributes at once using e.g.
+#. *
+#. *  client/html/catalog/attribute/type = array(
+#. *      'width' => 'select',
+#. *      'color' => 'radio',
+#. *  )
+#. *
+#. * Similarly, you can set the layout type for a specific attribute only,
+#. * leaving the rest untouched:
+#. *
+#. *  client/html/catalog/attribute/type/color = radio
+#. *
+#. * Note: Up to 2015.10 this option was available as
+#. /html/catalog/detail/basket/attribute/type
+#. *
+#. * @param array List of attribute types as key and layout types as value,
+#. e.g. "select" or "radio"
+#. * @since 2015.10
+#. * @category Developer
+#. * @category User
+#. * @see client/html/catalog/selection/type
+#. /html/catalog/attribute/type/color
+#. * Layout types for the color attribute
+#. *
+#. * @see client/html/catalog/attribute/type
+#. /html/catalog/attribute/type/size
+#. * Layout types for the size attribute
+#. *
+#. * @see client/html/catalog/attribute/type
+msgid "none"
+msgstr "没有"
+
+#, php-format
+msgid "order"
+msgstr "订单"
+
+#, php-format
+msgid "payment"
+msgstr "付款"
+
+#, php-format
+msgid "process"
+msgstr "处理"
+
+#. / code for "product is in stock"
+msgid "stock-high"
+msgstr "库存量大"
+
+#. / code for "only a few products are available"
+msgid "stock-low"
+msgstr "库存偏低"
+
+#. / code for "product is out of stock"
+msgid "stock-out"
+msgstr "缺货"
+
+#. / code for "product is available (without stock limit)"
+msgid "stock-unlimited"
+msgstr "库存无限"
+
+#, php-format
+msgid "summary"
+msgstr "小结"
+
+msgid "▲ Name"
+msgstr "▲ 名称"
+
+msgid "▲ Price"
+msgstr "▲ 价格"
+
+msgid "▶"
+msgstr "▶"
+
+msgid "▶▶"
+msgstr "▶▶"
+
+msgid "▼"
+msgstr "▼ "
+
+msgid "▼ Name"
+msgstr "▼ 名称"
+
+msgid "▼ Price"
+msgstr "▼ 价格"
+
+msgid "◀"
+msgstr "◀"
+
+msgid "◀◀"
+msgstr "◀◀"

@@ -1,0 +1,27 @@
+sudo: false
+language: php
+
+php:
+  - hhvm
+  - 7.1
+  - 7.0
+  - 5.6
+  - 5.5
+  - 5.4
+
+before_script:
+  - git clone --depth=50 --branch=2017.10 git://github.com/aimeos/aimeos-core.git ../aimeos-core
+  - cd ../aimeos-core
+  - mv ../ai-swiftmailer ext/
+  - composer require "swiftmailer/swiftmailer" ">=4.0"
+
+script:
+  - vendor/bin/phing -Ddir=ext/ai-swiftmailer coverageext checkext
+
+after_success:
+  - php vendor/bin/coveralls -c ext/ai-swiftmailer/.coveralls.yml
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - php: hhvm

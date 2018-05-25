@@ -1,0 +1,2458 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Андрей Аксёнов <aksenovaa@bk.ru>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: aimeos-core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-02 17:37+0200\n"
+"PO-Revision-Date: 2017-10-02 15:52+0000\n"
+"Last-Translator: Aimeos\n"
+"Language-Team: Russian (http://www.transifex.com/aimeos/aimeos-core/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#, php-format
+msgid ""
+"%1$s\n"
+"%2$s %3$s\n"
+"%5$s %4$s\n"
+"%7$s, %6$s\n"
+"%8$s, %9$s\n"
+"%10$s\n"
+"%11$s\n"
+"%12$s"
+msgstr ""
+
+#. / price format with value (%1$s) and currency (%2$s)
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#, php-format
+msgid "%1$s (Ctrl+Alt+%2$s)"
+msgstr ""
+
+#, php-format
+msgid "%s/%s/%s.%s"
+msgstr ""
+
+msgid ""
+"(International) facsimilie number without separation characters, can start "
+"with a \"+\""
+msgstr ""
+
+msgid ""
+"(International) telephone number without separation characters, can start "
+"with a \"+\""
+msgstr ""
+
+msgid "Actual current price"
+msgstr "Фактическая текущая цена"
+
+msgid "Actual price customers can buy the article for on the web site"
+msgstr ""
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Add filter"
+msgstr ""
+
+msgid "Add new entry (Ctrl+A)"
+msgstr ""
+
+msgid "Additional"
+msgstr "Дополнительно"
+
+msgid ""
+"Additional delivery costs for each item, e.g. $20 for one heavy item will be"
+" $100 for five items it total"
+msgstr ""
+
+msgid "Additional information where the customer's appartment can be found"
+msgstr ""
+
+msgid "Additional information where the supplier's office can be found"
+msgstr ""
+
+msgid "Additional information, e.g. flat number"
+msgstr "Дополнительная информация, например номер квартиры"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Address 1"
+msgstr "Адрес 1"
+
+msgid "Address 2"
+msgstr "Адрес 2"
+
+msgid "Address 3"
+msgstr "Адрес 3"
+
+msgid "Address ID"
+msgstr "ID адреса"
+
+msgid "Address identifier of the customer's house for delivery"
+msgstr ""
+
+msgid "Address identifier of the supplier's office"
+msgstr ""
+
+msgid "Addresses"
+msgstr "Адреса"
+
+#, php-format
+msgid "Admin JQAdm type is empty"
+msgstr ""
+
+#, php-format
+msgid "Aimeos object not available"
+msgstr ""
+
+msgid "All"
+msgstr "Все"
+
+msgid ""
+"All attributes that uniquely define an article, e.g. width, length and color"
+" for jeans"
+msgstr ""
+
+msgid "Allow custom price"
+msgstr ""
+
+msgid "Allow customers to choose themselves how much they want to pay"
+msgstr ""
+
+msgid ""
+"Article description shown by search engines, added to the head section of "
+"the product detail page"
+msgstr ""
+
+msgid ""
+"Article specific configuration options, will be available as key/value pairs"
+" in the templates"
+msgstr ""
+
+msgid "Associated attributes"
+msgstr "Связанные атрибуты"
+
+msgid "Associated customer groups"
+msgstr "Связанные группы пользователей"
+
+msgid "Associated customers"
+msgstr "Связанные пользователи"
+
+msgid "Associated media"
+msgstr "Связанные медиа"
+
+msgid "Associated prices"
+msgstr "Связанные цены"
+
+msgid "Associated products"
+msgstr "Связанные товары"
+
+msgid "Associated tags"
+msgstr "Связанные метки"
+
+msgid "Associated texts"
+msgstr "Связанные тексты"
+
+msgid "Attribute"
+msgstr "Атрибут"
+
+msgid "Attribute Lists Type"
+msgstr ""
+
+msgid "Attribute Type"
+msgstr ""
+
+msgid "Attribute Types"
+msgstr ""
+
+msgid "Attribute name"
+msgstr ""
+
+msgid "Attribute position (optional)"
+msgstr ""
+
+msgid "Attribute type"
+msgstr "Тип атрибута"
+
+#. : Attribute type item panel title with type label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Attribute type: {0} ({1})"
+msgstr "Тип атрибута: {0} ({1})"
+
+#. : Attribute item panel title with attribute label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Attribute: {0} ({1})"
+msgstr "Атрибут: {0} ({1})"
+
+msgid "Attributes"
+msgstr "Атрибуты"
+
+msgid "Available attributes"
+msgstr "Доступные атрибуты"
+
+msgid "Available currency for the current site"
+msgstr ""
+
+msgid "Available customer groups"
+msgstr "Доступные группы пользователей"
+
+msgid "Available customers"
+msgstr "Доступные пользователи"
+
+msgid "Available language for the current site"
+msgstr ""
+
+msgid "Available media"
+msgstr "Доступные медиа"
+
+msgid "Available prices"
+msgstr "Доступные цены"
+
+msgid "Available products"
+msgstr "Доступные товары"
+
+msgid "Available tags"
+msgstr "Доступные метки"
+
+msgid "Available texts"
+msgstr "Доступные тексты"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Back in stock"
+msgstr "Восполнение на складе"
+
+msgid "Base ID"
+msgstr "Базовый ID"
+
+msgid "Basic"
+msgstr "Основное"
+
+msgid "Basket"
+msgstr "Корзина"
+
+msgid "Billing address"
+msgstr "Платежный адрес"
+
+msgid "Birthday"
+msgstr "День рождения"
+
+msgid "Birthday of the customer"
+msgstr ""
+
+msgid "Bug or suggestion?"
+msgstr ""
+
+msgid "Bundles"
+msgstr ""
+
+msgid "Cache"
+msgstr "Кеш"
+
+msgid "Cache item details"
+msgstr "Сведения по элементу кеша"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Cancel and return to list"
+msgstr ""
+
+msgid "Catalog"
+msgstr "Каталог"
+
+msgid "Catalog Lists Type"
+msgstr ""
+
+msgid "Catalog Types"
+msgstr ""
+
+#. : Catalog item panel title with catalog label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Catalog: {0} ({1})"
+msgstr "Каталог: {0} ({1})"
+
+msgid "Categories"
+msgstr "Категории"
+
+msgid "Categories the product can be found in by the user on the web site"
+msgstr ""
+
+msgid "Categories the product will be shown for in the promotional section"
+msgstr ""
+
+msgid "Category name"
+msgstr ""
+
+msgid ""
+"Category specific configuration options, will be available as key/value "
+"pairs in the templates"
+msgstr ""
+
+msgid "Characteristics"
+msgstr "Характеристики"
+
+msgid "City"
+msgstr "Город"
+
+msgid "City name (required)"
+msgstr "Город (обязательно)"
+
+msgid "City or town name (required)"
+msgstr ""
+
+#, php-format
+msgid "Class \"%1$s\" does not implement \"%2$s\""
+msgstr "Класс \"%1$s\" не реализует \"%2$s\""
+
+#, php-format
+msgid "Class \"%1$s\" does not implement interface \"%2$s\""
+msgstr "Класс \"%1$s\" не реализует интерфейс \"%2$s\""
+
+#, php-format
+msgid "Class \"%1$s\" not available"
+msgstr "Недоступен класс \"%1$s\""
+
+#, php-format
+msgid "Class \"%1$s\" not found"
+msgstr "Не найден класс \"%1$s\""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Click to upload"
+msgstr "Нажмите для загрузки"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Code"
+msgstr "Код"
+
+msgid "Code to uniquely identify the site"
+msgstr ""
+
+msgid "Codes"
+msgstr "Коды"
+
+msgid "Columns"
+msgstr ""
+
+msgid "Comment"
+msgstr "Комментарий"
+
+msgid "Communication"
+msgstr ""
+
+msgid "Company"
+msgstr "Компания"
+
+msgid "Company details"
+msgstr ""
+
+msgid "Company name"
+msgstr "Компания"
+
+msgid "Company name (optional)"
+msgstr ""
+
+msgid "Config"
+msgstr ""
+
+msgid "Configurable"
+msgstr ""
+
+msgid "Configuration"
+msgstr "Настройка"
+
+msgid "Content"
+msgstr "Содержимое"
+
+msgid "Copy"
+msgstr "Копировать"
+
+msgid "Copy this entry"
+msgstr ""
+
+msgid "Costs"
+msgstr "Издержки"
+
+msgid "Costs per item"
+msgstr "Поэлементные издержки"
+
+msgid "Could not upload file. Please notify your administrator"
+msgstr "Невозможно загрузить файл. Известите администратора."
+
+msgid "Count"
+msgstr "Цикл"
+
+msgid "Country"
+msgstr "Страна"
+
+msgid "Country ID"
+msgstr ""
+
+msgid "Country code"
+msgstr "Код страны"
+
+msgid "Country code (required)"
+msgstr ""
+
+msgid ""
+"Country specific tax rate to calculate and display the included tax (B2C) or"
+" add the tax if required (B2B)"
+msgstr ""
+
+msgid "Country state code (optional)"
+msgstr ""
+
+msgid "Country state, e.g. \"NY\""
+msgstr "Область страны, например \"Тверская\""
+
+msgid "Coupon"
+msgstr "Купон"
+
+msgid "Coupon code"
+msgstr "Код купона"
+
+#. : Coupon code item panel title with coupon code ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Coupon code: {0} ({1})"
+msgstr "Код купона: {0} ({1})"
+
+msgid "Coupon provider or coupon decorator configuration name"
+msgstr ""
+
+#. : Coupon item panel title with coupon label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Coupon: {0} ({1})"
+msgstr "Купон: {0} ({1})"
+
+msgid "Coupons"
+msgstr "Купоны"
+
+msgid "Created"
+msgstr "Создано"
+
+msgid "Currencies"
+msgstr ""
+
+msgid "Currency"
+msgstr "Валюта"
+
+msgid "Currency (required)"
+msgstr "Валюта (обязательно)"
+
+msgid "Custom"
+msgstr ""
+
+msgid "Customer"
+msgstr "Покупатель"
+
+msgid "Customer ID"
+msgstr ""
+
+msgid "Customer Lists Type"
+msgstr ""
+
+msgid "Customer Types"
+msgstr ""
+
+#. : Customer address item panel title with customer name ({0}) and site code
+#. ({1)}
+#. : Customer address item panel title with customer name ({0}) and site code
+#. ({1)}
+#, python-brace-format
+msgid "Customer address: {0} ({1})"
+msgstr "Адрес заказчика: {0} ({1})"
+
+msgid "Customer comment (optional)"
+msgstr ""
+
+msgid "Customer e-mail address"
+msgstr ""
+
+#. : Customer group item panel title with customer name ({0}) and site code
+#. ({1)}
+#. : Customer group item panel title with customer name ({0}) and site code
+#. ({1)}
+#, python-brace-format
+msgid "Customer group: {0} ({1})"
+msgstr "Группа заказчика: {0} ({1})"
+
+msgid "Customer password"
+msgstr ""
+
+#. : Customer item panel title with customer label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Customer: {0} ({1})"
+msgstr "Заказчик: {0} ({1})"
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Date back"
+msgstr "Дата восполнения"
+
+msgid "Date of the last delivery status change"
+msgstr ""
+
+msgid "Date of the last payment status change"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Delete items?"
+msgstr "Подтвердите удаление"
+
+msgid "Delete this entry"
+msgstr ""
+
+msgid "Delivery"
+msgstr "Доставка"
+
+msgid "Delivery address"
+msgstr "Адрес доставки"
+
+msgid ""
+"Delivery costs for the whole order or additional costs for payment options"
+msgstr ""
+
+msgid "Delivery date"
+msgstr "Дата доставки"
+
+msgid "Delivery status"
+msgstr "Статус доставки"
+
+msgid "Delivery types"
+msgstr ""
+
+msgid "Descritive name of the currency"
+msgstr ""
+
+msgid "Descritive name of the language"
+msgstr ""
+
+msgid "Descritive name of the site"
+msgstr ""
+
+msgid "Details"
+msgstr "Подробно"
+
+msgid "Display field is empty"
+msgstr "Поле не заполнено"
+
+msgid "Domain"
+msgstr "Принадлежность"
+
+msgid "Domain (required)"
+msgstr "Принадлежность (обязательно)"
+
+msgid "Download"
+msgstr "Скачать"
+
+msgid "Download this file"
+msgstr ""
+
+msgid "Duplicate entry (Ctrl+D)"
+msgstr ""
+
+msgid "E-Mail"
+msgstr "E-Mail"
+
+msgid "E-Mail address (required)"
+msgstr ""
+
+msgid "E-Mail, e.g. me@example.com (required)"
+msgstr "E-Mail, например me@example.com (обязательно)"
+
+msgid "EAN, SKU or article number (required)"
+msgstr "EAN, SKU или артикулярный номер (обязательно)"
+
+msgid "Edit"
+msgstr "Правка"
+
+msgid "Edit this entry"
+msgstr ""
+
+msgid "Editor"
+msgstr "Редактор"
+
+msgid "Email"
+msgstr ""
+
+msgid "End date"
+msgstr "Конечная дата"
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "Excl. tax"
+msgstr ""
+
+msgid "Execution order of the plugins"
+msgstr ""
+
+msgid "Expert"
+msgstr ""
+
+msgid "Expert mode"
+msgstr ""
+
+msgid "Expires"
+msgstr "Истекает"
+
+msgid "Export"
+msgstr "Экспорт"
+
+msgid "Export successful"
+msgstr "Экспорт выполнен"
+
+msgid "Facility"
+msgstr "Категория"
+
+msgid "Facsimile"
+msgstr ""
+
+msgid "Facsimile number (optional)"
+msgstr ""
+
+msgid "Facsimile number, e.g. +155512345"
+msgstr "Номер факса, например +155512345"
+
+msgid "File"
+msgstr ""
+
+msgid "File URL"
+msgstr "URL файла"
+
+msgid "Filter"
+msgstr "Фильтр"
+
+msgid "Find category"
+msgstr ""
+
+msgid "First"
+msgstr ""
+
+msgid "First name"
+msgstr "Имя"
+
+msgid "First name (optional)"
+msgstr ""
+
+msgid "First name of the person if used in cultures where they are used"
+msgstr ""
+
+msgid "Firstname"
+msgstr "Имя"
+
+msgid "Floor"
+msgstr ""
+
+msgid "Floor / Appartment"
+msgstr ""
+
+msgid "Floor / Office"
+msgstr ""
+
+msgid "Floor and/or appartment (optional)"
+msgstr ""
+
+msgid "Floor and/or office (optional)"
+msgstr ""
+
+msgid "Flush"
+msgstr "Очистить"
+
+msgid "Flush cache?"
+msgstr "Очистить кеш?"
+
+msgid "Full name"
+msgstr "Полное имя"
+
+msgid "Full name (required)"
+msgstr "Полное имя (обязательно)"
+
+msgid "Group"
+msgstr "Группа"
+
+msgid "Group label (required)"
+msgstr "Метка группы (обязательно)"
+
+msgid "Height"
+msgstr ""
+
+msgid "Honorary title"
+msgstr "Почётный титул"
+
+msgid "Honorary title (optional)"
+msgstr ""
+
+msgid "Honorary titles like Dr., Ph.D, etc."
+msgstr ""
+
+msgid "House no"
+msgstr "Номер дома"
+
+msgid "House number"
+msgstr "Номер дома"
+
+msgid "House number (optional)"
+msgstr ""
+
+msgid "How the customer is addressed in e-mails"
+msgstr ""
+
+msgid "How the supplier is addressed in e-mails"
+msgstr ""
+
+msgid "ID"
+msgstr "ID"
+
+msgid "ID of a related invoice, e.g. of a changed or refunded invoice"
+msgstr ""
+
+msgid "ISO currency code (required)"
+msgstr ""
+
+msgid "ISO language code (required)"
+msgstr ""
+
+msgid "Images"
+msgstr ""
+
+msgid ""
+"Images will only be shown for that language, useful if the image contains "
+"text or is language sepecific"
+msgstr ""
+
+msgid "Import"
+msgstr "Импорт"
+
+msgid "Import/Export jobs"
+msgstr ""
+
+msgid "Incl. tax"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Insert new entry"
+msgstr ""
+
+msgid "Insert new entry (Ctrl+I)"
+msgstr ""
+
+msgid ""
+"Internal article name, will be used on the web site if no product name for "
+"the language is available"
+msgstr ""
+
+msgid ""
+"Internal attribute name, will be used on the web site if no name for the "
+"language is available"
+msgstr ""
+
+msgid ""
+"Internal category name, will be used on the web site if no name for the "
+"language is available"
+msgstr ""
+
+msgid "Internal name"
+msgstr "Внутреннее название"
+
+msgid "Internal name (required)"
+msgstr "Внутреннее название (обязательно)"
+
+msgid "Internal type name shown in the administration interface"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid action \"{0}\""
+msgstr "Недопустимое действие \"{0}\""
+
+#, php-format
+msgid "Invalid characters in class name \"%1$s\""
+msgstr "Недопустимые символы в названии класса \"%1$s\""
+
+#, php-format
+msgid "Invalid characters in client name \"%1$s\""
+msgstr "Недопустимые символы в названии покупателя \"%1$s\""
+
+#, php-format
+msgid "Invalid class name \"%1$s\""
+msgstr "Недопустимое название класса \"%1$s\""
+
+msgid "Invalid data"
+msgstr "Недопустимые данные"
+
+#, php-format
+msgid "Invalid domain \"%1$s\""
+msgstr "Недопустимый домен \"%1$s\""
+
+#, php-format
+msgid "Invalid factory \"%1$s\""
+msgstr "Недопустимая фабрика \"%1$s\""
+
+#, python-brace-format
+msgid "Invalid value for configuration key \"{0}\""
+msgstr "Неверное значение ключа настройки \"{0}\""
+
+msgid "Invoice"
+msgstr "Счёт"
+
+msgid "Item position within the same type"
+msgstr "Позиция элемента среди однотипных"
+
+msgid "Job item details"
+msgstr "Сведения по пункту задания"
+
+msgid "Jobs"
+msgstr "Задания"
+
+msgid ""
+"Keywords for search engines, added to the head section of the category page"
+msgstr ""
+
+msgid ""
+"Keywords for search engines, added to the head section of the product detail"
+" page"
+msgstr ""
+
+msgid "Label"
+msgstr "Надпись"
+
+msgid "Label (required)"
+msgstr ""
+
+msgid ""
+"Label will be used if empty but then there must be no name for all "
+"languages. Otherwise, items will not be shown when sorting by name"
+msgstr ""
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Language (required)"
+msgstr "Язык (обязательно)"
+
+msgid "Language ID"
+msgstr ""
+
+msgid "Languages"
+msgstr ""
+
+msgid "Last"
+msgstr ""
+
+msgid "Last delivery status of the invoice"
+msgstr ""
+
+msgid "Last delivery status of the order"
+msgstr ""
+
+msgid "Last modified"
+msgstr "Последнее изменение"
+
+msgid "Last name"
+msgstr "Фамилия"
+
+msgid "Last name (required)"
+msgstr "Фамилия (обязательно)"
+
+msgid ""
+"Last name of the person or full name in cultures where no first names are "
+"used"
+msgstr ""
+
+msgid "Last payment status of the invoice"
+msgstr ""
+
+msgid "Last payment status of the order"
+msgstr ""
+
+msgid "Lastname"
+msgstr "Фамилия"
+
+msgid "Latest orders"
+msgstr ""
+
+msgid "Length"
+msgstr "Длина"
+
+msgid "List"
+msgstr "Список"
+
+msgid "List ID"
+msgstr "ID списка"
+
+msgid "List Status"
+msgstr "Статус списка"
+
+msgid "List creation time"
+msgstr "Время создания списка"
+
+msgid "List editor"
+msgstr "Редактор списка"
+
+msgid "List end date"
+msgstr "Конечная дата списка"
+
+msgid "List item details"
+msgstr "Сведения по элементу списка"
+
+msgid "List modification time"
+msgstr "Время изменения списка"
+
+msgid ""
+"List of articles that should be sold as one product, often at a reduced "
+"price"
+msgstr ""
+
+msgid "List of products often bought together"
+msgstr ""
+
+msgid "List of suggested products"
+msgstr ""
+
+msgid "List position"
+msgstr "Позиция списка"
+
+msgid "List start date"
+msgstr "Начальная дата списка"
+
+msgid "List type"
+msgstr "Тип списка"
+
+msgid "Loading"
+msgstr "Загрузка"
+
+msgid "Locale"
+msgstr "Локаль"
+
+#. : Locale currency item panel title with currency label ({0}) and currency
+#. code ({1)}
+#. : Locale currency item panel title with currency label ({0}) and currency
+#. code ({1)}
+#, python-brace-format
+msgid "Locale currency: {0} ({1})"
+msgstr "Валюта локали: {0} ({1})"
+
+#. : Locale item panel title with site code ({1)}
+#, python-brace-format
+msgid "Locale item details ({1})"
+msgstr "Сведения по элементу локали ({1})"
+
+#. : Locale language item panel title with language label ({0}) and language
+#. code ({1)}
+#. : Locale language item panel title with language label ({0}) and language
+#. code ({1)}
+#, python-brace-format
+msgid "Locale language: {0} ({1})"
+msgstr "Адрес локали: {0} ({1})"
+
+#. : Locale site item panel title with site label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Locale site: {0} ({1})"
+msgstr "Локаль сайта: {0} ({1})"
+
+msgid "Logs"
+msgstr "Журнал"
+
+msgid "Long description"
+msgstr ""
+
+msgid "Media"
+msgstr "Медиа"
+
+msgid "Media Lists Type"
+msgstr ""
+
+msgid "Media Type"
+msgstr ""
+
+msgid "Media Types"
+msgstr ""
+
+msgid "Media type"
+msgstr "Тип медиа"
+
+#. : Media type item panel title with type label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Media type: {0} ({1})"
+msgstr "Тип медиа: {0} ({1})"
+
+#. : Media item panel title with media label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Media: {0} ({1})"
+msgstr "Медиа: {0} ({1})"
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Meta description"
+msgstr ""
+
+msgid "Meta keywords"
+msgstr ""
+
+msgid "Method"
+msgstr "Метод"
+
+msgid "Mimetype"
+msgstr "Тип mime"
+
+msgid "Minimum quantity"
+msgstr "Минимальное количество"
+
+msgid "Miss"
+msgstr "Мисс"
+
+msgid "Modifed"
+msgstr ""
+
+msgid "Modified"
+msgstr ""
+
+msgid "Mr"
+msgstr "Мистер"
+
+msgid "Mrs"
+msgstr "Миссис"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Name of the coupon provider class (required)"
+msgstr "Название класса поставщика купона (обязательно)"
+
+msgid ""
+"Name of the downloaded file when customers saves the file on their computers"
+msgstr ""
+
+msgid "Name of the plugin provider class (required)"
+msgstr "Название класса поставщика дополнения (обязательно)"
+
+msgid "Name of the service provider class (required)"
+msgstr "Название класса поставщика сервиса (обязательно)"
+
+msgid "New"
+msgstr ""
+
+msgid "Next"
+msgstr "Далее"
+
+msgid "No error information available"
+msgstr "Информация об ошибке недоступна"
+
+#, php-format
+msgid "No file uploaded for %1$d. new image"
+msgstr ""
+
+msgid "No items"
+msgstr "Нет элементов"
+
+msgid "No items found"
+msgstr ""
+
+#, php-format
+msgid "No items found for \"%1$s %2$s %3$s\""
+msgstr ""
+
+#, php-format
+msgid "No view available"
+msgstr "Нет доступных режимов вывода"
+
+msgid "No voucher"
+msgstr ""
+
+#, php-format
+msgid "Not allowed to access JQAdm \"%1$s\" client"
+msgstr ""
+
+msgid "Not implemented"
+msgstr "Не реализовано"
+
+msgid "Notice"
+msgstr "Замечание"
+
+msgid ""
+"Number of articles currently in stock, leave empty for an unlimited quantity"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Official VAT ID to determine if the tax needs to be billed in invoices"
+msgstr ""
+
+msgid ""
+"One provider and zero or more decorator class names separated by commas"
+msgstr ""
+
+msgid "Option"
+msgstr "Параметр"
+
+msgid ""
+"Optional product components that can be chosen by the customer together with"
+" the product"
+msgstr ""
+
+msgid "Order"
+msgstr "Заказ"
+
+msgid "Order item details"
+msgstr "Сведения по элементу заказа"
+
+msgid "Order of the language/currency combinations"
+msgstr ""
+
+msgid "Order of the service options in the checkout process"
+msgstr ""
+
+msgid "Order product ID"
+msgstr "ID заказанного товара"
+
+msgid "Order totals"
+msgstr ""
+
+msgid "Orders"
+msgstr ""
+
+msgid "Orders by day"
+msgstr ""
+
+msgid "Orders by hour"
+msgstr ""
+
+msgid "Orders by payment status"
+msgstr ""
+
+msgid "Overview"
+msgstr "Обзор"
+
+msgid ""
+"Overwrite the existing file and customers bought it in the past can then "
+"download the new content too"
+msgstr ""
+
+#, php-format
+msgid "Page %1$d of %2$d"
+msgstr "Страница %1$d из %2$d"
+
+msgid ""
+"Page description shown by search engines, added to the head section of the "
+"category page"
+msgstr ""
+
+msgid "Parameter"
+msgstr "Параметр"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Password (required)"
+msgstr "Пароль (обязательно)"
+
+msgid "Path"
+msgstr ""
+
+msgid "Pay costs"
+msgstr ""
+
+msgid "Pay date"
+msgstr ""
+
+msgid "Pay name"
+msgstr ""
+
+msgid "Pay price"
+msgstr ""
+
+msgid "Pay rebate"
+msgstr ""
+
+msgid "Pay status"
+msgstr ""
+
+msgid "Payment"
+msgstr "Оплата"
+
+msgid "Payment date"
+msgstr "Дата платежа"
+
+msgid "Payment status"
+msgstr "Статус платежа"
+
+msgid "Payment type"
+msgstr ""
+
+msgid "Payment types"
+msgstr ""
+
+#, php-format
+msgid "Permission denied"
+msgstr ""
+
+msgid "Personal data"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Physical values"
+msgstr ""
+
+msgid "Please recheck your data"
+msgstr "Проверьте данные"
+
+msgid "Please save the coupon first before you can add codes"
+msgstr "Сохраните купон, прежде чем появиться возможность добавления кодов"
+
+msgid "Please select"
+msgstr "Сделайте выбор"
+
+msgid ""
+"Please select an item on the right side and add it via drag and drop to this"
+" list."
+msgstr "Выберете элемент справа и перетащите его в этот список."
+
+msgid "Plugin"
+msgstr "Дополнение"
+
+msgid "Plugin Type"
+msgstr ""
+
+msgid "Plugin Types"
+msgstr ""
+
+msgid "Plugin position (required)"
+msgstr ""
+
+msgid "Plugin provider or plugin decorator configuration name"
+msgstr ""
+
+msgid "Plugin type"
+msgstr "Тип дополнения"
+
+#. : Plugin type item panel title with type label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Plugin type: {0} ({1})"
+msgstr "Тип дополнения: {0} ({1})"
+
+#. : Plugin item panel title with attribute label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Plugin: {0} ({1})"
+msgstr "Дополнение: {0} ({1})"
+
+msgid "Plugins"
+msgstr ""
+
+msgid "Position"
+msgstr "Позиция"
+
+msgid "Position (required)"
+msgstr ""
+
+msgid "Postal"
+msgstr ""
+
+msgid "Postal code"
+msgstr "Индекс"
+
+msgid "Postal code for delivery if used in the area the customer is living"
+msgstr ""
+
+msgid "Postal code for delivery if used in the area the supplier is living"
+msgstr ""
+
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgid "Preview URL"
+msgstr "URL предпросмотра"
+
+msgid "Previous"
+msgstr "Назад"
+
+msgid "Price"
+msgstr "Цена"
+
+msgid "Price Lists Type"
+msgstr ""
+
+msgid "Price Type"
+msgstr ""
+
+msgid "Price Types"
+msgstr ""
+
+msgid "Price type"
+msgstr "Тип цены"
+
+#. : Price type item panel title with type label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Price type: {0} ({1})"
+msgstr "Тип цены: {0} ({1})"
+
+#. : Price item panel title with price label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Price: {0} ({1})"
+msgstr "Цена: {0} ({1})"
+
+msgid "Prices"
+msgstr ""
+
+msgid "Priority"
+msgstr "Приоритет"
+
+msgid "Product"
+msgstr "Товар"
+
+msgid "Product ID"
+msgstr "ID товара"
+
+msgid "Product Lists Type"
+msgstr ""
+
+msgid "Product Property Type"
+msgstr ""
+
+msgid "Product Type"
+msgstr ""
+
+msgid "Product Types"
+msgstr ""
+
+msgid ""
+"Product attributes stored in the basket where customers can enter their own "
+"texts or values"
+msgstr ""
+
+msgid "Product attributes that are used by other products too"
+msgstr ""
+
+msgid "Product characteristics that are not shared with other products"
+msgstr ""
+
+msgid "Product code"
+msgstr "Код товара"
+
+msgid "Product costs"
+msgstr "Издержки на товар"
+
+msgid "Product height, e.g. 20.0 (in yard, inch, etc.)"
+msgstr ""
+
+msgid "Product item details"
+msgstr "Сведения о товаре"
+
+msgid "Product length, e.g. 30.0 (in yard, inch, etc.)"
+msgstr ""
+
+msgid "Product name"
+msgstr "Название товара"
+
+msgid "Product price"
+msgstr "Цена товара"
+
+msgid "Product property type"
+msgstr ""
+
+#. : Product property.type item panel title with type label ({0}) and site
+#. code ({1)}
+#. : Product property type item panel title with type label ({0}) and site
+#. code ({1)}
+#, python-brace-format
+msgid "Product property type: {0} ({1})"
+msgstr ""
+
+msgid "Product quantity"
+msgstr "Количество товара"
+
+msgid "Product rebate"
+msgstr "Скидка на товар"
+
+msgid "Product stock"
+msgstr "Товар на складе"
+
+msgid "Product supplier (optional)"
+msgstr "Поставщик товара (опционально)"
+
+#. : Product tag item panel title with product label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Product tag: {0} ({1})"
+msgstr "Метка товара: {0} ({1})"
+
+msgid "Product tax rate"
+msgstr "Налоговая ставка на товар"
+
+msgid "Product type"
+msgstr "Тип товара"
+
+#. : Product type item panel title with type label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Product type: {0} ({1})"
+msgstr "Тип товара: {0} ({1})"
+
+msgid "Product weight, e.g. 1.25 (in pound, ounce, etc.)"
+msgstr ""
+
+msgid "Product width, e.g. 17.5 (in yard, inch etc.)"
+msgstr ""
+
+#. : Product item panel title with product label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Product: {0} ({1})"
+msgstr "Товар: {0} ({1})"
+
+msgid "Products"
+msgstr "Товары"
+
+msgid "Products bought together"
+msgstr "Сопутствующие друг другу товары"
+
+msgid "Promotion"
+msgstr ""
+
+msgid "Properties"
+msgstr "Свойства"
+
+msgid "Property"
+msgstr "Свойство"
+
+msgid "Property value (required)"
+msgstr "Значение свойства (обязательно)"
+
+msgid "Provider"
+msgstr "Поставщик"
+
+msgid "Provider/decorator class names (required)"
+msgstr ""
+
+msgid "Purchase"
+msgstr ""
+
+msgid "Purchase date"
+msgstr "Дата покупки"
+
+msgid "Purchased"
+msgstr ""
+
+msgid "Quantity"
+msgstr "Количество"
+
+msgid "Quantity or empty if unlimited (optional)"
+msgstr "Количество или пусто, если без ограничений (опционально)"
+
+msgid "Rebate"
+msgstr "Скидка"
+
+msgid ""
+"Reduction from the original price, used to calculate the rebate in % and the"
+" cross price"
+msgstr ""
+
+msgid "Ref-ID"
+msgstr "Ссыл.-ID"
+
+msgid "Related ID"
+msgstr ""
+
+msgid "Related order"
+msgstr ""
+
+msgid "Related order ID"
+msgstr "ID связанного заказа"
+
+msgid "Remove filter"
+msgstr ""
+
+msgid "Replace file"
+msgstr ""
+
+msgid "Request"
+msgstr "Запрос"
+
+#, php-format
+msgid "Required parameter \"%1$s\" is missing"
+msgstr ""
+
+msgid ""
+"Required quantity of articles for block pricing, e.g. one article for $5.00,"
+" ten articles for $45.00"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Result"
+msgstr "Результат"
+
+msgid ""
+"Route name or page ID of the category page if this category should shown on "
+"a different page"
+msgstr ""
+
+msgid ""
+"Route name or page ID of the product detail page if this product should "
+"shown on a different page"
+msgstr ""
+
+msgid "Route or page ID (optional)"
+msgstr ""
+
+msgid "SKU"
+msgstr ""
+
+msgid "Salutation"
+msgstr "Обращение"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Save & Close"
+msgstr ""
+
+msgid "Save & Copy"
+msgstr ""
+
+msgid "Save & New"
+msgstr ""
+
+msgid "Save entry (Ctrl+S)"
+msgstr ""
+
+msgid "Saving"
+msgstr "Сохранение"
+
+#, python-brace-format
+msgid "Schema {0} is  not registered"
+msgstr "Незарегистрирована схема {0}"
+
+msgid "Search"
+msgstr "Поиск"
+
+#, python-brace-format
+msgid "Search schema {0} is  not registered"
+msgstr "Незарегистрирована схема поиска {0}"
+
+msgid "Select Item"
+msgstr "Сделайте выбор"
+
+msgid "Select languages to export"
+msgstr "Выберете экспортируемые языки"
+
+msgid "Service"
+msgstr "Служба"
+
+msgid "Service ID"
+msgstr "ID службы"
+
+msgid "Service Lists Type"
+msgstr ""
+
+msgid "Service Type"
+msgstr ""
+
+msgid "Service Types"
+msgstr ""
+
+msgid "Service attribute code"
+msgstr ""
+
+msgid "Service fees"
+msgstr "Издержки на услуги"
+
+msgid "Service item details"
+msgstr "Сведения по службе"
+
+msgid "Service name"
+msgstr ""
+
+msgid "Service position (required)"
+msgstr ""
+
+msgid "Service provider or service decorator configuration name"
+msgstr ""
+
+msgid "Service type"
+msgstr "Тип службы"
+
+#. : Service type item panel title with type label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Service type: {0} ({1})"
+msgstr "Тип службы: {0} ({1})"
+
+#. : Service item panel title with service label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Service: {0} ({1})"
+msgstr "Служба: {0} ({1})"
+
+msgid "Services"
+msgstr "Службы"
+
+msgid "Ship date"
+msgstr ""
+
+msgid "Ship status"
+msgstr ""
+
+msgid "Shipping"
+msgstr "Перевозка"
+
+msgid "Shipping costs per item"
+msgstr ""
+
+msgid "Shipping or payment costs"
+msgstr ""
+
+msgid "Shipping/Payment costs"
+msgstr ""
+
+msgid "Short description"
+msgstr ""
+
+msgid ""
+"Short state code (e.g. NY) if used in the country the customer is living"
+msgstr ""
+
+msgid ""
+"Short state code (e.g. NY) if used in the country the supplier has his "
+"office"
+msgstr ""
+
+msgid "Show"
+msgstr "Показать"
+
+msgid "Show entry"
+msgstr ""
+
+msgid "Show/hide this entry"
+msgstr ""
+
+msgid "Shown if the article reached a stock level of zero"
+msgstr ""
+
+msgid "Simple mode"
+msgstr ""
+
+msgid "Site"
+msgstr "Сайт"
+
+msgid ""
+"Site specific configuration options, will be available as key/value pairs"
+msgstr ""
+
+msgid "Site the order was placed at"
+msgstr ""
+
+msgid "Sites"
+msgstr ""
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Sorry, adding orders manually is currently not implemented"
+msgstr "Ручное добавление заказов пока не реализовано"
+
+msgid "Sorting of the attributes within the same attribute type"
+msgstr ""
+
+msgid "Source"
+msgstr "Источник"
+
+msgid "Source of the invoice, e.g. by web or phone"
+msgstr ""
+
+msgid "Start date"
+msgstr "Начальная дата"
+
+msgid "State"
+msgstr "Область"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Stock"
+msgstr "Запас"
+
+msgid "Stock Type"
+msgstr ""
+
+msgid "Stock Types"
+msgstr ""
+
+msgid "Stock level"
+msgstr "Уровень запасов"
+
+msgid "Street"
+msgstr "Улица"
+
+msgid "Street (required)"
+msgstr "Улица (обязательно)"
+
+msgid "Street name (optional)"
+msgstr ""
+
+msgid "Sub-total"
+msgstr "Промежуточная сумма"
+
+msgid "Subscription"
+msgstr ""
+
+msgid "Substracted rebate amount"
+msgstr "Вычитаемая сумма скидки"
+
+msgid "Suggested products"
+msgstr "Рекомендованные товары"
+
+msgid "Sum"
+msgstr "Сумма"
+
+msgid "Supplier"
+msgstr "Поставщик"
+
+#. : Supplier address item panel title with supplier name ({0}) and site code
+#. ({1)}
+#. : Supplier address item panel title with supplier name ({0}) and site code
+#. ({1)}
+#, python-brace-format
+msgid "Supplier address: {0} ({1})"
+msgstr "Адрес поставщика: {0} ({1})"
+
+msgid "Supplier name or company"
+msgstr ""
+
+#. : Supplier item panel title with supplier label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Supplier: {0} ({1})"
+msgstr "Поставщик: {0} ({1})"
+
+msgid "Suppliers"
+msgstr ""
+
+msgid "Switching language ..."
+msgstr "Переключение языка..."
+
+msgid "Switching site ..."
+msgstr "Переключение сайта..."
+
+msgid "Tag Type"
+msgstr ""
+
+msgid "Tag Types"
+msgstr ""
+
+msgid "Tag value (required)"
+msgstr "Значение метки (обязательно)"
+
+#. : Tag item panel title with tag label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Tag: {0} ({1})"
+msgstr ""
+
+msgid "Tags"
+msgstr "Метки"
+
+msgid "Tax"
+msgstr ""
+
+msgid "Tax rate"
+msgstr "Налоговая ставка"
+
+msgid "Tax rate in %"
+msgstr "Налоговая ставка в %"
+
+msgid "Telefax"
+msgstr "Телефакс"
+
+msgid "Telephone"
+msgstr "Телефон"
+
+msgid "Telephone number (optional)"
+msgstr ""
+
+msgid "Telephone number, e.g. +155512345"
+msgstr "Номер телефона, например +155512345"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Text Lists Type"
+msgstr ""
+
+msgid "Text Type"
+msgstr ""
+
+msgid "Text Types"
+msgstr ""
+
+msgid "Text type"
+msgstr "Тип текста"
+
+#. : Text type item panel title with type label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Text type: {0} ({1})"
+msgstr "Тип текста: {0} ({1})"
+
+#. : Text item panel title with text label ({0}) and site code ({1)}
+#, python-brace-format
+msgid "Text: {0} ({1})"
+msgstr "Текст: {0} ({1})"
+
+msgid "Texts"
+msgstr ""
+
+msgid ""
+"The article is only shown on the web site after that date and time, useful "
+"or seasonal articles"
+msgstr ""
+
+msgid ""
+"The article is only shown on the web site until that date and time, useful "
+"or seasonal articles"
+msgstr ""
+
+msgid "The article name as used in URLs, e.g. for non-latin languages"
+msgstr ""
+
+msgid "The category name as used in URLs, e.g. for non-latin languages"
+msgstr ""
+
+msgid ""
+"The file with the exported texts will be available within a few minutes. It "
+"can then be downloaded from the \"Job\" panel of the \"Overview\" tab."
+msgstr "Файл с экспортируемым текстом будет доступен в течение нескольких минут. Затем его можно скачать в панели \"Задание\" вкладки \"Обзор\"."
+
+msgid "The image title is used for the title tag of the image on the web site"
+msgstr ""
+
+msgid "The option is only shown on the web site after that date and time"
+msgstr ""
+
+msgid "The option is only shown on the web site until that date and time"
+msgstr ""
+
+msgid ""
+"The texts of your uploaded file will be imported within a few minutes. You "
+"can check the status of the import in the \"Job\" panel of the \"Overview\" "
+"tab"
+msgstr "Текст из загруженного файла будет импортирован в течение нескольких минут. Проверить статус импорта можно в панели \"Задачи\" вкладки \"Обзор\"."
+
+msgid "This combination already exists"
+msgstr "Такая комбинация уже имеется"
+
+msgid "Three letter ISO currency code"
+msgstr ""
+
+msgid "Title"
+msgstr "Титул"
+
+msgid "Toggle dropdown"
+msgstr ""
+
+msgid "Total"
+msgstr "Всего"
+
+msgid "Two letter ISO country code"
+msgstr ""
+
+msgid "Two letter ISO language code"
+msgstr ""
+
+msgid "Two letter country code, e.g. \"US\" (required)"
+msgstr "Двухсимвольный код страны, например \"RU\" (обязательно)"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Types"
+msgstr "Типы"
+
+msgid "Types for additional images like icons"
+msgstr ""
+
+msgid "Types for additional prices like per one lb/kg or per month"
+msgstr ""
+
+msgid "URL of the customer web site"
+msgstr ""
+
+msgid "URL of the supplier web site"
+msgstr ""
+
+msgid "URL segment"
+msgstr ""
+
+msgid "URL target"
+msgstr ""
+
+#, php-format
+msgid "Unable to call method \"%1$s\""
+msgstr "Невозможно вызвать метод \"%1$s\""
+
+msgid ""
+"Unique article code related to stock levels, e.g. from the ERP system, an "
+"EAN/GTIN number or self invented"
+msgstr ""
+
+msgid "Unique attribute code (required)"
+msgstr ""
+
+msgid "Unique attribute code, e.g. \"green\" for attributes of type \"color\""
+msgstr ""
+
+msgid "Unique category code (required)"
+msgstr ""
+
+msgid "Unique category code, either from external system or self-invented"
+msgstr ""
+
+msgid "Unique code (required)"
+msgstr "Уникальный код (обязательно)"
+
+msgid "Unique code to identify the service, usually self-invented"
+msgstr ""
+
+msgid "Unique customer e-mail address"
+msgstr ""
+
+msgid "Unique service code (required)"
+msgstr ""
+
+msgid "Unique site code (required)"
+msgstr ""
+
+msgid "Unique supplier code"
+msgstr ""
+
+msgid "Unique type code"
+msgstr ""
+
+msgid "Unique type code (required)"
+msgstr ""
+
+msgid "Unique type code, e.g. \"color\" for attributes like \"green\", \"blue\", \"red\""
+msgstr ""
+
+#, php-format
+msgid "Unknown type \"%1$s\""
+msgstr ""
+
+msgid "Upload failed"
+msgstr "Ошибка загрузки"
+
+msgid "Upload successful"
+msgstr "Загрузка закончена"
+
+msgid "Uploaded"
+msgstr ""
+
+msgid "Used by"
+msgstr "Используется в"
+
+msgid "User groups"
+msgstr ""
+
+msgid "User name"
+msgstr "Имя пользователя"
+
+msgid "User name, e.g. e-mail address (required)"
+msgstr "Имя пользователя, например адрес e-mail (обязательно)"
+
+msgid "Users"
+msgstr ""
+
+msgid "VAT ID"
+msgstr ""
+
+msgid "Value"
+msgstr "Значение"
+
+msgid "Value added tax identifier (optional)"
+msgstr ""
+
+msgid "Variant attributes"
+msgstr ""
+
+msgid "Variants"
+msgstr ""
+
+msgid "Vat ID"
+msgstr "ID НДС"
+
+msgid "Vat ID, e.g. \"GB999999999\""
+msgstr "ИНН ID, например \"GB999999999\""
+
+msgid "Verification date"
+msgstr "Дата утверждения"
+
+msgid "View details"
+msgstr ""
+
+msgid "Voucher"
+msgstr ""
+
+msgid "Vouchers"
+msgstr ""
+
+msgid "Warehouse"
+msgstr "Склад"
+
+msgid ""
+"Warehouse or local store if your articles are available at several locations"
+msgstr ""
+
+#. : Product warehouse item panel title with warehouse label ({0}) and site
+#. code ({1)}
+#. : Product warehouse item panel title with warehouse label ({0}) and site
+#. code ({1)}
+#, python-brace-format
+msgid "Warehouse: {0} ({1})"
+msgstr "Склад: {0} ({1})"
+
+msgid "Web"
+msgstr ""
+
+msgid "Web site"
+msgstr "Сайт"
+
+msgid "Web site URL (optional)"
+msgstr ""
+
+msgid "Web site, e.g. www.example.com"
+msgstr "Сайт, например www.example.com"
+
+msgid "Website"
+msgstr "Сайт"
+
+msgid "Weight"
+msgstr ""
+
+msgid "Width"
+msgstr "Ширина"
+
+msgid "YYYY-MM-DD (optional)"
+msgstr "ГГГГ-ММ-ДД (опционально)"
+
+msgid "YYYY-MM-DD hh:mm:ss (optional)"
+msgstr "ГГГГ-ММ-ДД чч:мм:сс (опционально)"
+
+msgid "You are going to delete one or more items. Would you like to proceed?"
+msgstr "Подтверждаете удаление одного или нескольких элементов?"
+
+msgid ""
+"You are going to flush the complete cache for the current site. Would you "
+"like to proceed?"
+msgstr "Вы собираетесь полностью очистить для текущего сайта. Подтверждаете?"
+
+msgid "Zip code"
+msgstr "Индекс"
+
+msgid "Zip code (optional)"
+msgstr ""
+
+#, php-format
+msgid "address"
+msgstr "Адреса"
+
+msgid "address:delivery"
+msgstr "Адрес доставки"
+
+msgid "address:payment"
+msgstr "Платёжный адрес"
+
+#, php-format
+msgid "attribute"
+msgstr "Атрибуты"
+
+#, php-format
+msgid "bundle"
+msgstr ""
+
+#, php-format
+msgid "catalog"
+msgstr "Категории"
+
+#, php-format
+msgid "category"
+msgstr "Категории"
+
+#, php-format
+msgid "characteristic"
+msgstr "Характеристики"
+
+#, php-format
+msgid "code"
+msgstr "Коды"
+
+msgid "company"
+msgstr "Компания"
+
+#, php-format
+msgid "coupon"
+msgstr ""
+
+#, php-format
+msgid "customer"
+msgstr ""
+
+#, php-format
+msgid "dashboard"
+msgstr ""
+
+#, php-format
+msgid "day"
+msgstr ""
+
+#, php-format
+msgid "deliverytype"
+msgstr ""
+
+#, php-format
+msgid "download"
+msgstr "Скачиваемые материалы"
+
+#, php-format
+msgid "hour"
+msgstr ""
+
+#, php-format
+msgid "image"
+msgstr ""
+
+#, php-format
+msgid "invoice"
+msgstr ""
+
+#, php-format
+msgid "latest"
+msgstr ""
+
+#, php-format
+msgid "locale"
+msgstr ""
+
+#, php-format
+msgid "locale/currency"
+msgstr ""
+
+#, php-format
+msgid "locale/language"
+msgstr ""
+
+#, php-format
+msgid "locale/site"
+msgstr ""
+
+msgid "media"
+msgstr "Медиа"
+
+msgid "miss"
+msgstr "Мисс"
+
+msgid "mr"
+msgstr "Мистер"
+
+msgid "mrs"
+msgstr "Миссис"
+
+msgid "new"
+msgstr "новое"
+
+msgid "no"
+msgstr ""
+
+msgid "not available any more"
+msgstr ""
+
+#, php-format
+msgid "option"
+msgstr "Параметры"
+
+#, php-format
+msgid "order"
+msgstr ""
+
+msgid "pay:-1"
+msgstr "незакончен"
+
+msgid "pay:0"
+msgstr "удален"
+
+msgid "pay:1"
+msgstr "отменен"
+
+msgid "pay:2"
+msgstr "отклонен"
+
+msgid "pay:3"
+msgstr "возмещен"
+
+msgid "pay:4"
+msgstr "в ожидании"
+
+msgid "pay:5"
+msgstr "авторизирован"
+
+msgid "pay:6"
+msgstr "получен"
+
+msgid "pay:authorized"
+msgstr "оплата:разрешена"
+
+msgid "pay:canceled"
+msgstr "оплата:отменена"
+
+msgid "pay:deleted"
+msgstr "стат:удалено"
+
+msgid "pay:pending"
+msgstr "стат:ожидание"
+
+msgid "pay:received"
+msgstr "оплата:получена"
+
+msgid "pay:refund"
+msgstr "оплата:возврат"
+
+msgid "pay:refused"
+msgstr "оплата:отказ"
+
+msgid "pay:unfinished"
+msgstr "стат:незакончен"
+
+#, php-format
+msgid "paymentstatus"
+msgstr ""
+
+#, php-format
+msgid "paymenttype"
+msgstr ""
+
+#, php-format
+msgid "physical"
+msgstr ""
+
+#, php-format
+msgid "plugin"
+msgstr ""
+
+#, php-format
+msgid "price"
+msgstr ""
+
+#, php-format
+msgid "product"
+msgstr "Товары"
+
+#, php-format
+msgid "related"
+msgstr "Товары"
+
+#, php-format
+msgid "selection"
+msgstr ""
+
+#, php-format
+msgid "service"
+msgstr "Оплата и доставка"
+
+msgid "service:delivery"
+msgstr "Доставка"
+
+msgid "service:payment"
+msgstr "Оплата"
+
+#, php-format
+msgid "special"
+msgstr ""
+
+msgid "stat:-1"
+msgstr "незакончен"
+
+msgid "stat:0"
+msgstr "удален"
+
+msgid "stat:1"
+msgstr "в ожидании"
+
+msgid "stat:2"
+msgstr "в обработке"
+
+msgid "stat:3"
+msgstr "отправлен"
+
+msgid "stat:4"
+msgstr "получен"
+
+msgid "stat:5"
+msgstr "потерян"
+
+msgid "stat:6"
+msgstr "отклонен"
+
+msgid "stat:7"
+msgstr "возращен"
+
+msgid "stat:deleted"
+msgstr "стат:удалено"
+
+msgid "stat:delivered"
+msgstr "стат:доставлено"
+
+msgid "stat:dispatched"
+msgstr "стат:выслан"
+
+msgid "stat:lost"
+msgstr "стат:потерян"
+
+msgid "stat:pending"
+msgstr "стат:ожидание"
+
+msgid "stat:progress"
+msgstr "стат:прогресс"
+
+msgid "stat:refused"
+msgstr "оплата:отказ"
+
+msgid "stat:returned"
+msgstr "стат:возвращён"
+
+msgid "stat:unfinished"
+msgstr "стат:незакончен"
+
+msgid "status:archive"
+msgstr "статус:архив"
+
+msgid "status:disabled"
+msgstr "статус:отключен"
+
+msgid "status:enabled"
+msgstr "статус:включен"
+
+msgid "status:review"
+msgstr "статус:рассмотрение"
+
+#, php-format
+msgid "stock"
+msgstr ""
+
+#, php-format
+msgid "supplier"
+msgstr ""
+
+msgid "tag"
+msgstr "Метки"
+
+#, php-format
+msgid "text"
+msgstr ""
+
+#, php-format
+msgid "type"
+msgstr ""
+
+#, php-format
+msgid "type/attribute"
+msgstr "Атрибуты"
+
+#, php-format
+msgid "type/attribute/lists"
+msgstr ""
+
+#, php-format
+msgid "type/catalog/lists"
+msgstr ""
+
+#, php-format
+msgid "type/customer/lists"
+msgstr ""
+
+#, php-format
+msgid "type/media"
+msgstr "Медиа"
+
+#, php-format
+msgid "type/media/lists"
+msgstr ""
+
+#, php-format
+msgid "type/plugin"
+msgstr ""
+
+#, php-format
+msgid "type/price"
+msgstr ""
+
+#, php-format
+msgid "type/price/lists"
+msgstr ""
+
+#, php-format
+msgid "type/product"
+msgstr "Товары"
+
+#, php-format
+msgid "type/product/lists"
+msgstr ""
+
+#, php-format
+msgid "type/product/property"
+msgstr ""
+
+#, php-format
+msgid "type/service"
+msgstr "Оплата и доставка"
+
+#, php-format
+msgid "type/service/lists"
+msgstr ""
+
+#, php-format
+msgid "type/stock"
+msgstr ""
+
+#, php-format
+msgid "type/tag"
+msgstr "Метки"
+
+#, php-format
+msgid "type/text"
+msgstr ""
+
+#, php-format
+msgid "type/text/lists"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid "yy-mm-dd"
+msgstr ""

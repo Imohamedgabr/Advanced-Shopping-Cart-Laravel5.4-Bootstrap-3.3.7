@@ -1,0 +1,465 @@
+/**
+ * @license LGPLv3, http://opensource.org/licenses/LGPL-3.0
+ * @copyright Aimeos (aimeos.org), 2015-2017
+ */
+
+
+
+/* Pagination */
+
+.aimeos .list-page {
+	text-align: center;
+}
+
+.aimeos .list-page .pagination {
+	display: inline-block;
+	margin: 1rem;
+}
+
+.aimeos .list-page .page-item {
+	display: inline-block;
+	text-align: center;
+}
+
+.aimeos .list-page .page-limit {
+	vertical-align: top;
+	margin: 1rem;
+}
+
+.aimeos .list-page .btn {
+	padding: 0.5rem 1rem;
+}
+
+.aimeos .list-page .page-link {
+	min-width: 3rem;
+}
+
+
+
+/** Tree view */
+
+.aimeos .tree-toolbar,
+.aimeos .tree-content {
+	margin: 0.15rem 0;
+	margin-bottom: 1.35rem;
+}
+
+.aimeos .tree-toolbar.input-group * {
+	padding: 0.5rem;
+}
+
+.aimeos .tree-toolbar .input-group-icon.expand-all:before {
+	content: "\f065";
+}
+
+.aimeos .tree-toolbar .input-group-icon.collapse-all:before {
+	content: "\f066";
+}
+
+.aimeos .tree-toolbar .input-group-icon.act-add,
+.aimeos .tree-toolbar .input-group-icon.act-delete {
+	font-size: 75%;
+}
+
+.aimeos .tree-toolbar .input-group-icon.act-add:before {
+	content: "\f067";
+}
+
+.aimeos .tree-toolbar .input-group-icon.act-delete:before {
+	content: "\f068";
+}
+
+
+
+/* Item listing */
+
+.aimeos .list-search,
+.aimeos .list-item-new {
+	background-color: #F8F8F8;
+}
+
+.aimeos .list-items .btn.fa {
+	margin: 0 0.25rem;
+	padding: 0.5rem;
+}
+
+.aimeos .list-items th {
+	background-color: #202830;
+	color: #FFF;
+}
+
+.aimeos .list-items th a {
+	color: #FFF;
+	white-space: nowrap;
+	font-weight: normal;
+	margin: auto;
+}
+
+.aimeos .list-items th button {
+	border-color: transparent;
+	background-color: inherit;
+	color: #FFF;
+}
+
+.aimeos .list-items th .dropdown-toggle:focus {
+	box-shadow: 0 0 0 2px rgba(2,117,216,.25);
+}
+
+.aimeos .list-items a.items-field {
+	display: inline;
+	color: #333;
+	width: 100%;
+}
+
+.aimeos .list-items .sort-asc:after {
+	font: normal normal normal 14px/1 FontAwesome;
+	content:"\f176";
+}
+
+.aimeos .list-items .sort-desc:after {
+	font: normal normal normal 14px/1 FontAwesome;
+	content:"\f175";
+}
+
+.aimeos .list-items .status-1:before {
+	content:"\f00c";
+}
+
+.aimeos .list-items .status-0:before {
+	content:"\f00d";
+}
+
+.aimeos .list-items .status--1:before {
+	content:"\f06e";
+}
+
+.aimeos .list-items .status--2:before {
+	content:"\f187";
+}
+
+.aimeos .list-items .config-item {
+	white-space: nowrap;
+	text-align: left;
+	max-width: 15rem;
+	overflow: hidden;
+}
+
+.aimeos .list-items .config-key:after {
+	content: ":";
+}
+
+.aimeos .list-items .config-value {
+	color: #687090;
+}
+
+.aimeos .list-items a.items-field.act-view:after {
+	font: normal normal normal 14px/1 FontAwesome;
+	content:"\f06e";
+}
+
+
+
+/* Detail view */
+
+.aimeos h2.item-header {
+	font-size: 150%;
+	padding: 0.5rem 0;
+	margin-bottom: 1rem;
+	border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+.aimeos .item-meta {
+	margin: 0.5rem;
+}
+
+.aimeos .item-meta small,
+.aimeos .item-tree .item-meta small {
+	white-space: nowrap;
+	margin: 0.5rem;
+	font-size: 80%;
+	display: inline-block;
+}
+
+.aimeos .item-meta .meta-value {
+	white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+	.aimeos .item-meta small {
+		white-space: normal;
+		margin: 0.5rem 0;
+		display: block;
+	}
+}
+
+.aimeos .item .tab-pane {
+	overflow-x: auto;
+	height: 100%;
+}
+
+.aimeos .item .form-group.mandatory label:after {
+	white-space: nowrap;
+	content: " *";
+}
+
+.aimeos .ai-combobox {
+	width: 100%;
+}
+
+.aimeos .help {
+	text-decoration: underline dotted;
+	cursor: help;
+}
+
+.aimeos .help-text {
+	font-size: 80%;
+	display: none;
+}
+
+
+.aimeos .item-config .config-row-key,
+.aimeos .item-config .config-row-value {
+	width: 49%;
+}
+
+.aimeos .item-config th {
+	background-color: #ffffff;
+	color: #292b2c;
+}
+
+.aimeos .item-config td {
+	vertical-align: top;
+}
+
+.aimeos .item-config .config-map-table {
+	display: none;
+}
+
+.aimeos .item-config td.config-map-action-add {
+	width: 2%;
+}
+
+
+/* Bundles */
+
+.aimeos .item-navbar .nav-item.bundle {
+	display: none;
+}
+
+
+/* Catalog */
+
+.aimeos .list-search .catalog-lists-position,
+.aimeos .list-search .customer-lists-position,
+.aimeos .list-search .catalog-lists-status,
+.aimeos .list-search .customer-lists-status,
+.aimeos .list-search .catalog-lists-type,
+.aimeos .list-search .customer-lists-type,
+.aimeos .list-search .catalog-lists-config,
+.aimeos .list-search .customer-lists-config {
+	width: 15%;
+}
+
+.aimeos .list-search .catalog-lists-refid,
+.aimeos .list-search .customer-lists-refid {
+	width: 35%;
+}
+
+.aimeos .list-search .catalog-lists-refid,
+.aimeos .list-search .customer-lists-refid {
+	padding: 0 0.75rem;
+	text-align: left;
+}
+
+@media (max-width: 991px) {
+	.aimeos .item-catalog .tree-content {
+		max-height: 400px;
+		overflow: auto;
+	}
+}
+
+
+/* Images */
+
+.aimeos .item-image .image-preview {
+	border: 2px dashed #B0B0B0;
+	border-radius: .25rem;
+	height: 10rem;
+}
+
+.aimeos .item-image .image-preview img {
+	max-height: calc(10rem - 4px);
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.aimeos .item-image .image-preview .fileupload {
+	height: calc(10rem - 4px);
+	position: absolute;
+	overflow: hidden;
+	cursor: pointer;
+	opacity: 0;
+}
+
+
+/** Selection */
+
+.aimeos .item-navbar .nav-item.selection {
+	display: none;
+}
+
+
+/** Order */
+
+.aimeos .list-order .list-header .actions .act-add {
+	display: none;
+}
+
+.aimeos .list-order .list-item .actions .act-copy {
+	visibility: hidden;
+}
+
+.aimeos .item-order.tab-pane {
+	overflow-x: initial;
+}
+
+.aimeos .item-order .item-customerid a.act-view:after {
+	font: normal normal normal 14px/1 FontAwesome;
+	content:"\f06e";
+}
+
+.aimeos .item-order .item-product-list th.item-column,
+.aimeos .item-order .item-product-list .product-sku {
+	font-weight: bold;
+}
+
+.aimeos .item-order .item-product-list .product-sku:before {
+	content: "(";
+}
+
+.aimeos .item-order .item-product-list .product-sku:after {
+	content: ")";
+}
+
+.aimeos .item-order .item-product-list .column-status {
+    max-width: 10rem;
+    min-width: 5rem;
+}
+
+.aimeos .item-order .item-product-list .column-desc {
+	text-align: left;
+}
+
+.aimeos .item-order .item-product-list .column-price,
+.aimeos .item-order .item-product-list .column-sum {
+	white-space: nowrap;
+	text-align: right;
+}
+
+.aimeos .item-order .item-product-list .product-name,
+.aimeos .item-order .item-product-list .product-attr,
+.aimeos .item-order .item-product-list .product-sku,
+.aimeos .item-order .item-product-list .product-status,
+.aimeos .item-order .item-product-list .product-quantity,
+.aimeos .item-order .item-product-list .product-price,
+.aimeos .item-order .item-product-list .product-costs,
+.aimeos .item-order .item-product-list .product-rebate {
+	display: block;
+}
+
+.aimeos .item-order .item-product-list .product-attr .attr-code:after {
+	content: ":";
+}
+
+.aimeos .item-order .item-product-list .product-attr .attr-value:not(:last-child):after {
+	content: ",";
+}
+
+.aimeos .item-order .item-product-list .product-costs:before {
+	content: "+ ";
+}
+
+.aimeos .item-order .item-product-list .product-rebate:before {
+	content: "(- ";
+}
+
+.aimeos .item-order .item-product-list .product-rebate:after {
+	content: ")";
+}
+
+.aimeos .item-order .item-address .address-form {
+	margin-top: 1rem;
+	display: none;
+}
+
+.aimeos .item-order .item-address .address-text {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.aimeos .item-order .item-address .address-edit {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.aimeos .item-order .item-address .address-edit:before {
+	font: normal normal normal 14px/1 FontAwesome;
+	content: "\f040";
+	cursor: pointer;
+}
+
+.aimeos .item-order .item-service .service-code {
+	font-weight: bold;
+	display: block;
+}
+
+.aimeos .item-order .item-service .service-code:before {
+	content: "(";
+}
+
+.aimeos .item-order .item-service .service-rebate:before {
+	content: "(-";
+}
+
+.aimeos .item-order .item-service .service-code:after,
+.aimeos .item-order .item-service .service-rebate:after {
+	content: ")";
+}
+
+.aimeos .item-order .item-service .service-attr th,
+.aimeos .item-order .item-service .service-attr td {
+	width: 49%;
+}
+
+.aimeos .item-order .item-total .row {
+	padding: 0.75rem;
+	margin: 0;
+}
+
+.aimeos .item-order .item-total .value {
+	text-align: right;
+}
+
+.aimeos .item-order .item-total .total-subtotal,
+.aimeos .item-order .item-total .total-value {
+	background-color: #F8F8F8;
+}
+
+.aimeos .item-order .item-total .total-value {
+	font-weight: bold;
+}
+
+
+.aimeos .item-coupon .actions .dropdown-item .label input.fileupload {
+	position: absolute;
+	padding: 0;
+	opacity: 0;
+	left: 0;
+}
+
+
+.prototype-map,
+.prototype {
+	display: none;
+}

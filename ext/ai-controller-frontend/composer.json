@@ -1,0 +1,29 @@
+{
+	"name": "aimeos/ai-controller-frontend",
+	"description": "Aimeos ai-controller-frontend extension",
+	"keywords": ["aimeos", "extension", "controller", "frontend"],
+	"homepage": "https://aimeos.org/",
+	"type": "aimeos-extension",
+	"license": "LGPL-3.0",
+	"support": {
+		"source": "https://github.com/aimeos/ai-controller-frontend",
+		"issues": "https://github.com/aimeos/ai-controller-frontend/issues",
+		"forum": "https://aimeos.org/help",
+		"wiki": "https://aimeos.org/docs"
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "^1.0",
+		"aimeos/aimeos-core": "~2017.10"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aimeos\\Controller\\Frontend\\": "controller/frontend/src/Controller/Frontend/"
+		},
+		"classmap": [
+			"controller/frontend/src"
+		]
+	}
+}

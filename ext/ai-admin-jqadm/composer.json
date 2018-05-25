@@ -1,0 +1,31 @@
+{
+	"name": "aimeos/ai-admin-jqadm",
+	"description": "Aimeos ai-admin-jqadm extension",
+	"keywords": ["aimeos", "extension", "JQuery admin interface"],
+	"homepage": "https://aimeos.org/",
+	"type": "aimeos-extension",
+	"license": "LGPL-3.0",
+	"support": {
+		"source": "https://github.com/aimeos/ai-admin-jqadm",
+		"issues": "https://github.com/aimeos/ai-admin-jqadm/issues",
+		"forum": "https://aimeos.org/help",
+		"wiki": "https://aimeos.org/docs"
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "^1.0",
+		"aimeos/aimeos-core": "~2017.10"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aimeos\\Admin\\JQAdm\\": "admin/jqadm/src/Admin/JQAdm/",
+			"Aimeos\\MW\\": "lib/custom/src/MW"
+		},
+		"classmap": [
+			"admin/jqadm/src",
+			"lib/custom/src"
+		]
+	}
+}

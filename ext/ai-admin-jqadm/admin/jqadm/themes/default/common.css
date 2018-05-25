@@ -1,0 +1,197 @@
+/**
+ * @license LGPLv3, http://opensource.org/licenses/LGPL-3.0
+ * @copyright Aimeos (aimeos.org), 2015-2017
+ */
+
+
+
+/* Common styles */
+
+.aimeos .warning,
+.aimeos .warning input {
+	color: #ff4000;
+}
+
+.aimeos .readonly {
+	border-left: 0.25rem solid #FFB070;
+	opacity: 0.66 !important;
+}
+
+.aimeos .readonly select:focus {
+	border-color: #D9534F !important;
+}
+
+.aimeos .info-list,
+.aimeos .error-list {
+	list-style: none;
+}
+
+.aimeos .info-list .sr-only:after,
+.aimeos .error-list .sr-only:after {
+	content: ":";
+}
+
+.aimeos .card {
+	margin-bottom: 0.5rem;
+}
+
+.aimeos .card-header {
+	padding: 0.25rem;
+}
+
+.aimeos .header.has-danger {
+	border-top: solid 3px #E05040;
+}
+
+.aimeos .card-header .header-label {
+	vertical-align: middle;
+}
+
+.aimeos .btn.act-reset.fa:before {
+	content: "\f00d";
+}
+
+.aimeos .btn.act-search.fa:before {
+	content: "\f002";
+}
+
+.aimeos .main-navbar .btn.act-show.fa:before,
+.aimeos .card-header.collapsed .btn.act-show.fa:before {
+	content: "\f078";
+}
+
+.aimeos .card-header .btn.act-show.fa:before {
+	content: "\f077";
+}
+
+.aimeos .btn.act-add.fa:before {
+	content: "\f067";
+}
+
+.aimeos .btn.act-close.fa:before {
+	content: "\f00d";
+}
+
+.aimeos .btn.act-columns.fa:before {
+	content: "\f0db";
+}
+
+.aimeos .btn.act-copy.fa:before {
+	content: "\f0c5";
+}
+
+.aimeos .btn.act-delete.fa:before {
+	content: "\f00d";
+}
+
+.aimeos .btn.act-download.fa:before {
+	content: "\f019";
+}
+
+.aimeos .btn.act-edit.fa:before {
+	content: "\f040";
+}
+
+.aimeos .btn.act-import.fa:before {
+	content: "\f093";
+}
+
+.aimeos .btn.act-menu.fa:before {
+	content: "\f150";
+}
+
+.aimeos .btn.act-save.fa:before {
+	content: "\f0c7";
+}
+
+.aimeos .btn.act-view.fa:before {
+	font: normal normal normal 14px/1 FontAwesome;
+	content: "\f06e";
+}
+
+.aimeos .item-refid.btn.act-view.fa {
+	font-family: inherit;
+	color: inherit;
+}
+
+.aimeos .card-tools-left {
+	display: inline-block;
+}
+
+.aimeos .card-tools-right {
+	position: absolute;
+	right: 0.5rem;
+	top: 0.45rem;
+}
+
+.aimeos .card-tools-more {
+	padding: 0 0.5rem;
+	text-align: right;
+}
+
+.aimeos .content-block {
+	margin-bottom: 1rem;
+}
+
+.aimeos .table {
+	margin: 0;
+}
+
+.aimeos table th,
+.aimeos table td {
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	padding: 0.125rem 0.25rem;
+	height: 2.5rem;
+}
+
+.aimeos table .actions {
+	white-space: nowrap;
+	text-align: right;
+	width: 2%;
+}
+
+.aimeos table .actions a,
+.aimeos table .actions div,
+.aimeos table .actions .btn {
+	display: inline-block;
+}
+
+.aimeos .actions-group {
+	text-align: center;
+	clear: both;
+}
+
+.aimeos .actions-group .btn {
+	min-width: 8rem;
+	margin: 0.5rem;
+}
+
+.aimeos .form-group input[type="checkbox"],
+.aimeos .form-group input[type="radio"] {
+	margin: 0.75rem 0;
+	width: auto;
+}
+
+.aimeos .input-group-addon .dropdown-add {
+	margin: -0.5rem -0.75rem;
+	padding: 0.5rem 0.75rem;
+}
+
+.aimeos .input-group-addon .dropdown-add:after {
+	content: "+";
+}
+
+.aimeos input.fileupload {
+	padding: 0.25rem 0;
+	width: 100%;
+}
+
+.aimeos .dropdown-item .label {
+	display: block !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	text-align: left;
+	color: #464a4c;
+}
