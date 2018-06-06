@@ -69,6 +69,17 @@ class Standard
 	 * @category Developer
 	 */
 
+	/** admin/jqadm/product/characteristic/hidden/name
+	 * Name of the characteristic/hidden subpart used by the JQAdm product implementation
+	 *
+	 * Use "Myname" if your class is named "\Aimeos\Admin\Jqadm\Product\Characteristic\Hidden\Myname".
+	 * The name is case-sensitive and you should avoid camel case names like "MyName".
+	 *
+	 * @param string Last part of the JQAdm class name
+	 * @since 2018.01
+	 * @category Developer
+	 */
+
 	/** admin/jqadm/product/characteristic/property/name
 	 * Name of the characteristic/property subpart used by the JQAdm product implementation
 	 *
@@ -79,7 +90,7 @@ class Standard
 	 * @since 2016.04
 	 * @category Developer
 	 */
-	private $subPartNames = array( 'attribute', 'property' );
+	private $subPartNames = array( 'attribute', 'hidden', 'property' );
 
 
 	/**

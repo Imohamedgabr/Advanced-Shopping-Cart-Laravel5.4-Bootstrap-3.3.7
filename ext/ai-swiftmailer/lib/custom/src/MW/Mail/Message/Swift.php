@@ -156,7 +156,7 @@ class Swift implements \Aimeos\MW\Mail\Message\Iface
 	 */
 	public function setBody( $message )
 	{
-		$this->object->setBody( $message );
+		$this->object->addPart($message, 'text/plain');
 		return $this;
 	}
 
@@ -169,7 +169,7 @@ class Swift implements \Aimeos\MW\Mail\Message\Iface
 	 */
 	public function setBodyHtml( $message )
 	{
-		$this->object->addPart( $message, 'text/html' );
+		$this->object->setBody( $message, 'text/html' );
 		return $this;
 	}
 
@@ -185,7 +185,7 @@ class Swift implements \Aimeos\MW\Mail\Message\Iface
 	 */
 	public function addAttachment( $data, $mimetype, $filename, $disposition = 'attachment' )
 	{
-		$part = \Swift_Attachment::newInstance( $data, $filename, $mimetype );
+		$part = new \Swift_Attachment( $data, $filename, $mimetype );
 		$part->setDisposition( $disposition );
 
 		$this->object->attach( $part );
@@ -203,7 +203,7 @@ class Swift implements \Aimeos\MW\Mail\Message\Iface
 	 */
 	public function embedAttachment( $data, $mimetype, $filename )
 	{
-		$part = \Swift_EmbeddedFile::newInstance( $data, $mimetype, $filename );
+		$part = new \Swift_EmbeddedFile( $data, $filename, $mimetype );
 
 		return $this->object->embed( $part );
 	}
